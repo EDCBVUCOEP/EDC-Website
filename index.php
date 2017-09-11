@@ -90,7 +90,15 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
+<style type="text/css">{
+    
+    hr.style1{
+	border-top: 1px solid #8c8b8b;
+}
+    
+    }
 </style>
+    
 
   </head>
 
@@ -186,6 +194,8 @@
 
 </div>
 </div>
+        
+<hr class="style1">
           
           
           
@@ -228,7 +238,7 @@
   </div>
       <div class="mb-2 mt-2">
         <p class="text-center"> 
-           EDC (Entrepreneurship Development Cell)
+           <strong>EDC (Entrepreneurship Development Cell)</strong>
         </p>
       </div>
 
