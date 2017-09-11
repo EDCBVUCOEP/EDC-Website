@@ -48,9 +48,10 @@
                     $inputLname= $_POST['inputLname'];
                     $emailTo = "harshit.bvucoep@gmail.com";
                     $subject = $_POST['subject'];
-                    $content = "<strong>Name:</strong>" .($_POST['inputFname']). ($_POST['inputLname']);
-                    $content .= $_POST['content'];
-                    $headers ="From: ".$_POST['email'].'<'.$_POST['inputFname'].$_POST['inputLname'];
+                    //$content = "<strong>Name:</strong>" .($_POST['inputFname']). ($_POST['inputLname']);
+                    //$content = $_POST['content'];
+                    $content = "First Name :".$inputFname.' Last Name :'.$inputLname."".$_POST['content'];
+                    $headers ="From: ".$_POST['email'];//.'<'.$_POST['inputFname'].$_POST['inputLname'];
 
 
                     if(mail($emailTo, $subject, $content, $headers)) {
@@ -68,6 +69,9 @@
 
 
                     }
+
+
+                    //echo $inputFname." ".$inputLname." ".$subject." ".$headers." ".$content;
                 }
     }
 
@@ -129,7 +133,7 @@
 
       <div class="container">
 
-    <h1 style="padding-top:20px">Get In Touch!</h1>
+    <h1 style="padding-top:20px">CONTACT US</h1>
     <div id="error"><? echo $error.$successMessage; ?></div>
 
 
