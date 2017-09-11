@@ -186,6 +186,60 @@
 
 </div>
 </div>
+          
+          
+          
+          <footer>
+  <div class="container">
+    <div class="row mt-3">
+    <div class="col-md-3 col-xs-3">
+     <h3>Contact us</h3>
+      <a href="">Home</a><br>
+      <a href="">Link</a><br>
+      <a href="">Link</a><br>
+      <a href="">Link</a><br>
+    
+    </div>
+
+    <div class="col-md-3 col-xs-3">
+    <h3>Recent Events</h3>
+      <a href="">Home</a><br>
+      <a href="">Link</a><br>
+      <a href="">Link</a><br>
+      <a href="">Link</a><br>
+    </div>
+
+    <div class="col-md-3 col-xs-3">
+    <h3>Social</h3>
+      <a href="">Home</a><br>
+      <a href="">Link</a><br>
+      <a href="">Link</a><br>
+      <a href="">Link</a><br>
+    </div>
+
+    <div class="col-md-3 col-xs-3">
+    <h3>Contact us</h3>
+      <a href="">Home</a><br>
+      <a href="">Link</a><br>
+      <a href="">Link</a><br>
+      <a href="">Link</a><br>
+    </div>
+
+  </div>
+      <div class="mb-2 mt-2">
+        <p class="text-center"> 
+           EDC (Entrepreneurship Development Cell)
+        </p>
+      </div>
+
+         
+      
+    
+</div>    
+
+   </footer>
+          
+          
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, thens Bootstrap JS -->
