@@ -10,3 +10,6 @@
 [0911/121546.579:ERROR:process_info.cc(625)] range at 0x69ab2caa00000000, size 0x195 fully unreadable
 [0911/121546.579:ERROR:process_info.cc(625)] range at 0x69ab2cca00000000, size 0x195 fully unreadable
 [0911/121546.579:ERROR:process_info.cc(625)] range at 0x0, size 0x195 fully unreadable
+[0912/100915.127:ERROR:process_info.cc(625)] range at 0xbfd82cc400000000, size 0x1a4 fully unreadable
+[0912/100915.158:ERROR:process_info.cc(625)] range at 0xbfd82ce400000000, size 0x1a4 fully unreadable
+[0912/100915.158:ERROR:process_info.cc(625)] range at 0x0, size 0x1a4 fully unreadable
