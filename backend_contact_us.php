@@ -48,9 +48,10 @@
                     $inputLname= $_POST['inputLname'];
                     $emailTo = "harshit.bvucoep@gmail.com";
                     $subject = $_POST['subject'];
-                    $content = "<strong>Name:</strong>" .($_POST['inputFname']). ($_POST['inputLname']);
-                    $content .= $_POST['content'];
-                    $headers ="From: ".$_POST['email'].'<'.$_POST['inputFname'].$_POST['inputLname'];
+                    //$content = "<strong>Name:</strong>" .($_POST['inputFname']). ($_POST['inputLname']);
+                    //$content = $_POST['content'];
+                    $content = "First Name :".$inputFname.' Last Name :'.$inputLname."".$_POST['content'];
+                    $headers ="From: ".$_POST['email'];//.'<'.$_POST['inputFname'].$_POST['inputLname'];
 
 
                     if(mail($emailTo, $subject, $content, $headers)) {
@@ -68,6 +69,9 @@
 
 
                     }
+
+
+                    //echo $inputFname." ".$inputLname." ".$subject." ".$headers." ".$content;
                 }
     }
 
@@ -86,7 +90,15 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
+<style type="text/css">{
+    
+    hr.style1{
+	border-top: 1px solid #8c8b8b;
+}
+    
+    }
 </style>
+    
 
   </head>
 
@@ -129,7 +141,7 @@
 
       <div class="container">
 
-    <h1 style="padding-top:20px">Get In Touch!</h1>
+    <h1 style="padding-top:20px">CONTACT US</h1>
     <div id="error"><? echo $error.$successMessage; ?></div>
 
 
@@ -182,6 +194,62 @@
 
 </div>
 </div>
+        
+<hr class="style1">
+          
+          
+          
+          <footer>
+  <div class="container">
+    <div class="row mt-3">
+    <div class="col-md-3 col-xs-3">
+     <h3>Contact us</h3>
+      <a href="">Home</a><br>
+      <a href="">Link</a><br>
+      <a href="">Link</a><br>
+      <a href="">Link</a><br>
+    
+    </div>
+
+    <div class="col-md-3 col-xs-3">
+    <h3>Recent Events</h3>
+      <a href="">Home</a><br>
+      <a href="">Link</a><br>
+      <a href="">Link</a><br>
+      <a href="">Link</a><br>
+    </div>
+
+    <div class="col-md-3 col-xs-3">
+    <h3>Social</h3>
+      <a href="">Home</a><br>
+      <a href="">Link</a><br>
+      <a href="">Link</a><br>
+      <a href="">Link</a><br>
+    </div>
+
+    <div class="col-md-3 col-xs-3">
+    <h3>Contact us</h3>
+      <a href="">Home</a><br>
+      <a href="">Link</a><br>
+      <a href="">Link</a><br>
+      <a href="">Link</a><br>
+    </div>
+
+  </div>
+      <div class="mb-2 mt-2">
+        <p class="text-center"> 
+           <strong>EDC (Entrepreneurship Development Cell)</strong>
+        </p>
+      </div>
+
+         
+      
+    
+</div>    
+
+   </footer>
+          
+          
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, thens Bootstrap JS -->

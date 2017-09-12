@@ -8,9 +8,70 @@
 <link type="text/css" rel="stylesheet" href="css/bootstrap-reboot.css">
 <link type="text/css" rel="stylesheet" href="css/bootstrap-grid.css">
 <style>
+
+.cont {
+	background-color:#b2c0cc;
+}
+
+
+.parallax {
+    /* The image used */
+    background-image: url("img/m2.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .wrapper {
     text-align: center;
 }
+
+.tech-slideshow {
+  height: 200px;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow > div {
+  height: 200px;
+  width: 2526px;
+  background: url(img/collab.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translate3d(0, 0, 0);
+}
+.tech-slideshow .mover-1 {
+  animation: moveSlideshow 12s linear infinite;
+}
+
+.tech-slideshow .mover-2 {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  background-position: 0 -200px;
+  animation: moveSlideshow 15s linear infinite;
+}
+.tech-slideshow:hover .mover-2 {
+  opacity: 1;
+}
+
+@keyframes moveSlideshow {
+  100% { 
+    transform: translateX(-66.6666%);  
+  }
+}
+
+
 </style>
 
 </head>
@@ -21,36 +82,22 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+<nav class="navbar navbar-expand-lg row bg-light sticky-top">
 
-  <a class="navbar-brand" href="#"> <img src="img/edc_dark.png" alt="Mountain View" style="width:40%;height:40%;">   </a>
+  <a class="navbar-brand col" href="#"> <img src="img/edc_dark12.png" alt="Mountain View" style="width:40;height:20;margin-top:10px;margin-left:20px;margin-bottom:10px">   </a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home   <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about-us.html">About Us   </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Associates   </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Initiatives   </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Blogs   </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us   </a>
-      </li>
-     </ul>
-  </div>
+   <div class="collapse navbar-collapse container col navbar-nav mr-auto" id="navbarSupportedContent">
+        <a class="nav-item nav-link " style="text-align:right;color:black;" href="#">Home</a>
+	<a class="nav-item nav-link " style="text-align:right;color:black;" href="#">About Us</a>
+	<a class="nav-item nav-link " style="text-align:right;color:black;" href="#"> Initiatives</a>
+	<a class="nav-item nav-link " style="text-align:right;color:black;" href="#">Blogposts</a>
+	<a class="nav-item nav-link " style="text-align:right;color:black;" href="#">Contact Us</a>
+    </div>
 </nav>
+<hr/>
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -60,13 +107,13 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="img/mrd.jpg" alt="First slide">
+      <img class="d-block w-100" src="img/SVG images/1000by720.svg" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="img/mrd.jpg" alt="Second slide">
+      <img class="d-block w-100" src="img/SVG images/1000by720.svg" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="img/mrd.jpg" alt="Third slide">
+      <img class="d-block w-100" src="img/SVG images/1000by720.svg" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -80,36 +127,39 @@
 </div>
 
 <hr/>
-<h4 class="display-5 text-center container">Principal's Message</h4>
-<div class="row container">
-<div class="col">
-<img src="img/principal.jpg" style="height:350px;width:250px;margin-left:200px;margin-top:20px;margin-bottom:20px;">
+<div class="parallax">
+<h4 class="display-6 text-center container">Principal's Message</h4>
+<div class="row container ">
+<div class="col ">
+<img src="img/principal.jpg" class="img-thumbnail" style="height:350px;width:250px;margin-left:200px;margin-top:20px;margin-bottom:20px;">
 </div>
 <div class="col" style="margin-left:40px;margin-right:40px;margin-top:20px;">
-<p>This is an excerpt</p>
+<p> The concept of a global village could not have been defined in the world at a better time than today. With fast paced developments taking place in various fields around the world, it has made the world a smaller place. The emergence of India on the world map in recent years as a country that cannot be ignored has made the task at hand more compelling than ever before.We at Bharati Vidyapeeth Deemed University College of Engineering have always worked toward furthering our philosophy of value-based education through our motto Social Transformation through Dynamic Education.Ever since its establishment, the BVUCOE conglomerate of students, staff and faculty have endeavored towards creating young and dynamic engineers who will form the crux of the technical workforce of tomorrow. In our quest to provide the country with the best working talent, we have created a disciplined environment that at the same time provides each individual with the creative freedom to think out of the box. It has always been our belief that every student has an unending pool of talent that needs to be nurtured and which when guided with proper care and the correct attitude can help bring out the best from any individual.I am convinced that every student passing out of our College will leave their undefiled mark of success in whichever sphere of life they choose to work and I hope that their hunger to do well for the benefit of the human race only increases with their success in life.</p>
 
+</div>
 </div>
 </div>
 <hr/>
 
-<h4 class="display-5 text-center container">Events</h4>
+<h4 class="display-6 text-center container">Events</h4>
 <div class="row container">
 <div class="col">
-<img src="img/mrd.jpg" style="height:100px;width:200px;margin-left:120px;margin-top:20px;margin-bottom:20px;">
+<img src="img/sample.svg" class="mx-auto d-block img-thumbnail" style="height:100px;width:200px;margin-left:120px;margin-top:20px;margin-bottom:20px;">
 </div>
 <div class="col">
-<img src="img/mrd.jpg" style="height:100px;width:200px;margin-left:120px;margin-top:20px;margin-bottom:20px;">
+<img src="img/sample.svg" class="mx-auto d-block img-thumbnail" style="height:100px;width:200px;margin-left:120px;margin-top:20px;margin-bottom:20px;">
 </div>
 <div class="col">
-<img src="img/mrd.jpg" style="height:100px;width:200px;margin-left:120px;margin-top:20px;margin-bottom:20px;">
+<img src="img/sample.svg" class="mx-auto d-block img-thumbnail" style="height:100px;width:200px;margin-left:120px;margin-top:20px;margin-bottom:20px;">
 </div>
 </div>
-<div class="wrapper">
-<button type="button" class="btn btn-primary btn-lg " style="margin-left:10px;margin-right:80px">More</button>
+
+<div class="container mx-auto" style="width: 110px;">
+<button type="button" class="btn btn-primary" >See More</button>
 </div>
 <hr/>
 
-<h4 class="display-5 text-center container">Startups</h4>
+<h4 class="display-6 text-center container">Startups</h4>
 <div id="carouselExampleIndicators" class="carousel slide container" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -118,13 +168,13 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="/home/priyanshu/Downloads/mrd.jpg" alt="First slide" style="height:300px;width:200px;">
+      <img class="d-block w-50" src="img/discover.jpg" alt="First slide" style="height:300px;width:200px;">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="/home/priyanshu/Downloads/mrd.jpg" alt="Second slide" style="height:300px;width:200px;">
+      <img class="d-block w-50" src="img/htsi.jpg" alt="Second slide" style="height:300px;width:200px;">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="/home/priyanshu/Downloads/mrd.jpg" alt="Third slide" style="height:300px;width:200px;">
+      <img class="d-block w-50" src="img/scooty.jpg" alt="Third slide" style="height:300px;width:200px;">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -138,47 +188,42 @@
 </div>
 <hr/>
 
-<div class="card container">
-  <img class="card-img-top" src="/home/priyanshu/Downloads/mrd.jpg" alt="First slide" style="height:100px;width:100px;">
-  <div class="card-body">
-    <h4 class="card-title text-center">Testimonial</h4>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
+<div class="parallax">
+<h4 class="display-6 text-center container">Founder's Message</h4>
+<div class="row container">
+<div class="col">
+<img src="img/400_300 image/founder.png" class="img-thumbnail" style="height:350px;width:250px;margin-left:200px;margin-top:20px;margin-bottom:20px;">
 </div>
+<div class="col" style="margin-left:40px;margin-right:40px;margin-top:20px;">
+<p>I believe "success follows those who follow their heart", with this thought process, I Vaibhav Goel, founded "Entrepreneurship Development Cell" at Bharati Vidyapeeth College of Engineering, Pune in 2013. The motive of this E-Cell is to promote entrepreneurship among the curious youth who wish to gain knowledge about it. E-Cell BVU Pune, has successfully developed the qualities which are required for being a successful entrepreneurship cell. The E-Cell has successfully performed itself from a team of 2 to 3 members to a team of 80 members who put their heart and soul to make each event a great success. I would really like to see the E-Cell, founded by me, to reach great heights, as it has in these four years. Startup Conclave, yet another event would add on to its glory and prestige.</p>
+
+</div>
+</div>
+</div>
+
+  <div class="container">
+    <h4 class="text-center display-6">Testimonial</h4>
+	<blockquote class="blockquote">
+    <p class="mb-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+	<footer class="blockquote-footer text-right">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+	</blockquote>
+  </div>
 <hr/>
 
-<h4 class="display-5 text-center container">Collaborations</h4>
-<div id="carouselExampleIndicators" class="carousel slide container" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="/home/priyanshu/Downloads/mrd.jpg" alt="First slide" style="height:300px;width:200px;">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="/home/priyanshu/Downloads/mrd.jpg" alt="Second slide" style="height:300px;width:200px;">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="/home/priyanshu/Downloads/mrd.jpg" alt="Third slide" style="height:300px;width:200px;">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+<h4 class="display-6 text-center container">Collaborations</h4>
+
+
+<div class="tech-slideshow">
+  <div class="mover-1"></div>
+  <div class="mover-2"></div>
 </div>
+
+
 <hr/>
 
 <footer>
   <div class="container">
-    <div class="row">
+    <div class="row mt-3">
     <div class="col-md-3 col-xs-3">
      <h3>Contact us</h3>
       <a href="">Home</a><br>
@@ -213,7 +258,7 @@
     </div>
 
   </div>
-      <div>
+      <div class="mb-2 mt-2">
         <p class="text-center"> 
            EDC (Entrepreneurship Development Cell)
         </p>
@@ -225,7 +270,6 @@
 </div>    
 
    </footer>
-
 </body>
 
 </html>
