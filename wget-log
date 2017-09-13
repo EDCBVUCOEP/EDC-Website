@@ -1,0 +1,260 @@
+--2017-09-12 16:23:03--  https://www.apachefriends.org/xampp-files/5.6.20/xampp-linux-x64-5.6.20-0-installer.run
+Resolving www.apachefriends.org (www.apachefriends.org)... 107.22.247.161
+Connecting to www.apachefriends.org (www.apachefriends.org)|107.22.247.161|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://downloadsapachefriends.global.ssl.fastly.net/xampp-files/5.6.20/xampp-linux-x64-5.6.20-0-installer.run?from_af=true [following]
+--2017-09-12 16:23:05--  https://downloadsapachefriends.global.ssl.fastly.net/xampp-files/5.6.20/xampp-linux-x64-5.6.20-0-installer.run?from_af=true
+Resolving downloadsapachefriends.global.ssl.fastly.net (downloadsapachefriends.global.ssl.fastly.net)... 151.101.52.249
+Connecting to downloadsapachefriends.global.ssl.fastly.net (downloadsapachefriends.global.ssl.fastly.net)|151.101.52.249|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 135465406 (129M) [binary/octet-stream]
+Saving to: ‘xampp-linux-x64-5.6.20-0-installer.run’
+
+.20-0-installer.run   0%[                    ] 313.51K  48.0KB/s    eta 64m 58s20-0-installer.run    0%[                    ] 329.51K  49.8KB/s    eta 64m 58s0-0-installer.run     0%[                    ] 345.51K  50.6KB/s    eta 64m 58s-0-installer.run      0%[                    ] 361.51K  52.6KB/s    eta 60m 1s 0-installer.run       0%[                    ] 377.51K  53.2KB/s    eta 60m 1s -installer.run        0%[                    ] 393.51K  55.1KB/s    eta 60m 1s installer.run         0%[                    ] 412.29K  56.6KB/s    eta 60m 1s nstaller.run          0%[                    ] 425.60K  57.7KB/s    eta 56m 8s staller.run           0%[                    ] 441.51K  56.3KB/s    eta 56m 8s taller.run            0%[                    ] 457.51K  56.1KB/s    eta 56m 8s aller.run             0%[                    ] 473.51K  56.2KB/s    eta 56m 8s ller.run              0%[                    ] 489.51K  53.9KB/s    eta 55m 24sler.run               0%[                    ] 505.51K  51.6KB/s    eta 55m 24ser.run                0%[                    ] 521.51K  50.5KB/s    eta 56m 23sr.run                 0%[                    ] 537.51K  49.5KB/s    eta 56m 23s.run                  0%[                    ] 553.51K  49.1KB/s    eta 56m 23srun                   0%[                    ] 569.51K  30.2KB/s    eta 70m 31sun                    0%[                    ] 729.51K  44.5KB/s    eta 70m 31sn                     0%[                    ] 745.51K  44.8KB/s    eta 70m 31s                      0%[                    ] 777.51K  46.5KB/s    eta 70m 31s                  x   0%[                    ] 905.51K  56.5KB/s    eta 47m 8s                  xa   0%[                    ] 921.51K  56.7KB/s    eta 47m 8s                 xam   0%[                    ] 937.51K  56.6KB/s    eta 47m 8s                xamp   0%[                    ] 953.51K  56.5KB/s    eta 47m 8s               xampp   0%[                    ] 969.51K  55.9KB/s    eta 46m 32s             xampp-   0%[                    ] 985.51K  55.9KB/s    eta 46m 32s            xampp-l   0%[                    ]   1002K  55.9KB/s    eta 46m 32s           xampp-li   0%[                    ]   1018K  56.7KB/s    eta 46m 32s          xampp-lin   0%[                    ]   1.01M  57.4KB/s    eta 45m 39s         xampp-linu   0%[                    ]   1.03M  57.2KB/s    eta 45m 39s        xampp-linux   0%[                    ]   1.04M  58.2KB/s    eta 45m 39s       xampp-linux-   0%[                    ]   1.06M  57.7KB/s    eta 46m 43s      xampp-linux-x   0%[                    ]   1.07M  56.6KB/s    eta 46m 43s     xampp-linux-x6   0%[                    ]   1.09M  54.8KB/s    eta 47m 48s    xampp-linux-x64   0%[                    ]   1.10M  84.2KB/s    eta 47m 48s   xampp-linux-x64-   0%[                    ]   1.12M  60.5KB/s    eta 48m 34s  xampp-linux-x64-5   0%[                    ]   1.13M  58.0KB/s    eta 48m 34s xampp-linux-x64-5.   0%[                    ]   1.17M  40.8KB/s    eta 54m 5s xampp-linux-x64-5.6   1%[                    ]   1.46M  66.0KB/s    eta 54m 5s ampp-linux-x64-5.6.   1%[                    ]   1.48M  57.4KB/s    eta 54m 5s mpp-linux-x64-5.6.2   1%[                    ]   1.50M  58.0KB/s    eta 54m 5s pp-linux-x64-5.6.20   1%[                    ]   1.51M  57.9KB/s    eta 43m 3s p-linux-x64-5.6.20-   1%[                    ]   1.52M  57.3KB/s    eta 43m 3s -linux-x64-5.6.20-0   1%[                    ]   1.54M  57.4KB/s    eta 43m 3s linux-x64-5.6.20-0-   1%[                    ]   1.56M  57.5KB/s    eta 43m 3s inux-x64-5.6.20-0-i   1%[                    ]   1.57M  57.5KB/s    eta 42m 57snux-x64-5.6.20-0-in   1%[                    ]   1.59M  56.6KB/s    eta 42m 57sux-x64-5.6.20-0-ins   1%[                    ]   1.60M  56.8KB/s    eta 42m 57sx-x64-5.6.20-0-inst   1%[                    ]   1.62M  55.3KB/s    eta 43m 10s-x64-5.6.20-0-insta   1%[                    ]   1.63M  55.8KB/s    eta 43m 10sx64-5.6.20-0-instal   1%[                    ]   1.65M  56.3KB/s    eta 43m 40s64-5.6.20-0-install   1%[                    ]   1.67M  56.8KB/s    eta 43m 40s4-5.6.20-0-installe   1%[                    ]   1.68M  58.6KB/s    eta 43m 40s-5.6.20-0-installer   1%[                    ]   1.76M  66.4KB/s    eta 42m 21s5.6.20-0-installer.   1%[                    ]   1.77M  67.9KB/s    eta 42m 21s.6.20-0-installer.r   1%[                    ]   1.79M  69.5KB/s    eta 42m 21s6.20-0-installer.ru   1%[                    ]   1.81M   103KB/s    eta 42m 21s.20-0-installer.run   1%[                    ]   1.82M  57.7KB/s    eta 42m 11s20-0-installer.run    1%[                    ]   1.84M  57.7KB/s    eta 42m 11s0-0-installer.run     1%[                    ]   1.85M  56.5KB/s    eta 42m 11s-0-installer.run      1%[                    ]   1.87M  56.8KB/s    eta 42m 11s0-installer.run       1%[                    ]   1.88M  56.9KB/s    eta 41m 59s-installer.run        1%[                    ]   1.90M  57.9KB/s    eta 41m 59sinstaller.run         1%[                    ]   1.92M  57.8KB/s    eta 41m 59snstaller.run          1%[                    ]   1.93M  57.7KB/s    eta 41m 59sstaller.run           1%[                    ]   1.95M  57.7KB/s    eta 41m 50staller.run            1%[                    ]   1.96M  58.1KB/s    eta 41m 50saller.run             1%[                    ]   1.98M  58.0KB/s    eta 41m 50sller.run              1%[                    ]   2.00M  61.6KB/s    eta 41m 50sler.run               1%[                    ]   2.01M  64.9KB/s    eta 41m 50ser.run                1%[                    ]   2.02M  69.2KB/s    eta 41m 38sr.run                 1%[                    ]   2.04M  69.2KB/s    eta 41m 38s.run                  1%[                    ]   2.06M  58.0KB/s    eta 41m 38srun                   1%[                    ]   2.07M  57.8KB/s    eta 41m 38sun                    1%[                    ]   2.09M  58.0KB/s    eta 41m 28sn                     1%[                    ]   2.10M  58.0KB/s    eta 41m 28s                      1%[                    ]   2.12M  58.0KB/s    eta 41m 28s                  x   1%[                    ]   2.13M  58.0KB/s    eta 41m 28s                 xa   1%[                    ]   2.15M  56.5KB/s    eta 41m 29s                xam   1%[                    ]   2.17M  52.9KB/s    eta 41m 29s               xamp   1%[                    ]   2.18M  23.7KB/s    eta 48m 39s              xampp   1%[                    ]   2.27M  29.4KB/s    eta 48m 39s             xampp-   1%[                    ]   2.29M  29.4KB/s    eta 48m 39s            xampp-l   1%[                    ]   2.32M  29.3KB/s    eta 47m 10s           xampp-li   1%[                    ]   2.34M  25.2KB/s    eta 49m 5s           xampp-lin   1%[                    ]   2.51M  34.5KB/s    eta 49m 5s          xampp-linu   1%[                    ]   2.56M  35.6KB/s    eta 45m 52s        xampp-linux   2%[                    ]   2.60M  37.0KB/s    eta 45m 52s       xampp-linux-   2%[                    ]   2.68M  40.7KB/s    eta 45m 52s      xampp-linux-x   2%[                    ]   2.70M  40.5KB/s    eta 44m 20s     xampp-linux-x6   2%[                    ]   2.70M  40.5KB/s    eta 44m 20s    xampp-linux-x64   2%[                    ]   2.71M  40.1KB/s    eta 44m 20s   xampp-linux-x64-   2%[                    ]   2.73M  39.1KB/s    eta 44m 46s  xampp-linux-x64-5   2%[                    ]   2.74M  39.0KB/s    eta 44m 46s xampp-linux-x64-5.   2%[                    ]   2.75M  38.1KB/s    eta 44m 46sxampp-linux-x64-5.6   2%[                    ]   2.76M  37.6KB/s    eta 44m 46sampp-linux-x64-5.6.   2%[                    ]   2.76M  37.0KB/s    eta 45m 4s mpp-linux-x64-5.6.2   2%[                    ]   2.77M  37.2KB/s    eta 45m 4s pp-linux-x64-5.6.20   2%[                    ]   2.77M  61.0KB/s    eta 45m 37sp-linux-x64-5.6.20-   2%[                    ]   2.79M  52.9KB/s    eta 45m 37s-linux-x64-5.6.20-0   2%[                    ]   2.82M  54.6KB/s    eta 45m 37slinux-x64-5.6.20-0-   2%[                    ]   2.84M  54.8KB/s    eta 45m 36sinux-x64-5.6.20-0-i   2%[                    ]   2.85M  33.2KB/s    eta 51m 47snux-x64-5.6.20-0-in   2%[                    ]   2.92M  26.5KB/s    eta 51m 47sux-x64-5.6.20-0-ins   2%[                    ]   2.99M  25.0KB/s    eta 50m 33sx-x64-5.6.20-0-inst   2%[                    ]   3.02M  21.4KB/s    eta 50m 33s-x64-5.6.20-0-insta   2%[                    ]   3.18M  30.4KB/s    eta 48m 12sx64-5.6.20-0-instal   2%[                    ]   3.20M  31.1KB/s    eta 48m 12s64-5.6.20-0-install   2%[                    ]   3.21M  31.0KB/s    eta 48m 12s4-5.6.20-0-installe   2%[                    ]   3.23M  30.5KB/s    eta 48m 27s-5.6.20-0-installer   2%[                    ]   3.24M  30.5KB/s    eta 48m 27s5.6.20-0-installer.   2%[                    ]   3.26M  30.7KB/s    eta 48m 40s.6.20-0-installer.r   2%[                    ]   3.27M  30.7KB/s    eta 48m 40s6.20-0-installer.ru   2%[                    ]   3.29M  30.8KB/s    eta 48m 52s.20-0-installer.run   2%[                    ]   3.31M  30.8KB/s    eta 48m 52s20-0-installer.run    2%[                    ]   3.32M  31.0KB/s    eta 49m 2s 0-0-installer.run     2%[                    ]   3.34M  32.0KB/s    eta 49m 2s -0-installer.run      2%[                    ]   3.35M  32.1KB/s    eta 49m 2s 0-installer.run       2%[                    ]   3.37M  30.7KB/s    eta 49m 14s-installer.run        2%[                    ]   3.38M  31.1KB/s    eta 49m 14sinstaller.run         2%[                    ]   3.40M  58.6KB/s    eta 49m 14snstaller.run          2%[                    ]   3.42M  53.9KB/s    eta 49m 14sstaller.run           2%[                    ]   3.43M  50.7KB/s    eta 49m 11staller.run            2%[                    ]   3.45M  51.3KB/s    eta 49m 11saller.run             2%[                    ]   3.46M  51.2KB/s    eta 49m 11sller.run              2%[                    ]   3.48M  32.9KB/s    eta 49m 34sler.run               2%[                    ]   3.49M  32.5KB/s    eta 49m 34ser.run                2%[                    ]   3.51M  30.4KB/s    eta 49m 59sr.run                 2%[                    ]   3.52M  30.6KB/s    eta 49m 59s.run                  2%[                    ]   3.54M  20.2KB/s    eta 53m 26srun                   2%[                    ]   3.65M  24.1KB/s    eta 52m 57sun                    2%[                    ]   3.77M  30.5KB/s    eta 52m 57sn                     2%[                    ]   3.79M  30.9KB/s    eta 52m 57s                      2%[                    ]   3.81M  31.2KB/s    eta 51m 22s                  x   2%[                    ]   3.84M  32.6KB/s    eta 51m 22s                 xa   3%[                    ]   3.88M  34.6KB/s    eta 51m 22s                xam   3%[                    ]   3.90M  33.9KB/s    eta 50m 55s               xamp   3%[                    ]   3.92M  27.6KB/s    eta 53m 1s               xampp   3%[                    ]   4.02M  32.7KB/s    eta 53m 1s              xampp-   3%[                    ]   4.04M  33.1KB/s    eta 53m 1s             xampp-l   3%[                    ]   4.05M  32.7KB/s    eta 53m 1s            xampp-li   3%[                    ]   4.06M  32.3KB/s    eta 51m 36s          xampp-lin   3%[                    ]   4.07M  31.8KB/s    eta 51m 36s         xampp-linu   3%[                    ]   4.09M  32.3KB/s    eta 51m 50s        xampp-linux   3%[                    ]   4.10M  31.8KB/s    eta 51m 50s       xampp-linux-   3%[                    ]   4.12M  31.5KB/s    eta 52m 24s      xampp-linux-x   3%[                    ]   4.13M  31.3KB/s    eta 52m 24s     xampp-linux-x6   3%[                    ]   4.15M  42.5KB/s    eta 52m 44s    xampp-linux-x64   3%[                    ]   4.17M  39.3KB/s    eta 52m 44s   xampp-linux-x64-   3%[                    ]   4.18M  30.6KB/s    eta 53m 3s   xampp-linux-x64-5   3%[                    ]   4.27M  35.8KB/s    eta 53m 3s  xampp-linux-x64-5.   3%[                    ]   4.29M  35.4KB/s    eta 52m 11sxampp-linux-x64-5.6   3%[                    ]   4.31M  33.7KB/s    eta 52m 11sampp-linux-x64-5.6.   3%[                    ]   4.32M  31.3KB/s    eta 52m 19smpp-linux-x64-5.6.2   3%[                    ]   4.34M  31.7KB/s    eta 52m 19spp-linux-x64-5.6.20   3%[                    ]   4.35M  43.6KB/s    eta 52m 26sp-linux-x64-5.6.20-   3%[                    ]   4.37M  32.7KB/s    eta 52m 26s-linux-x64-5.6.20-0   3%[                    ]   4.38M  31.3KB/s    eta 52m 41slinux-x64-5.6.20-0-   3%[                    ]   4.40M  31.5KB/s    eta 52m 41sinux-x64-5.6.20-0-i   3%[                    ]   4.42M  30.8KB/s    eta 52m 52snux-x64-5.6.20-0-in   3%[                    ]   4.43M  29.6KB/s    eta 53m 9s ux-x64-5.6.20-0-ins   3%[                    ]   4.45M  28.8KB/s    eta 53m 9s x-x64-5.6.20-0-inst   3%[                    ]   4.46M  28.9KB/s    eta 53m 34s-x64-5.6.20-0-insta   3%[                    ]   4.48M  28.3KB/s    eta 53m 34sx64-5.6.20-0-instal   3%[                    ]   4.49M  29.0KB/s    eta 53m 48s64-5.6.20-0-install   3%[                    ]   4.51M  29.4KB/s    eta 53m 48s4-5.6.20-0-installe   3%[                    ]   4.52M  30.2KB/s    eta 53m 59s-5.6.20-0-installer   3%[                    ]   4.54M  31.5KB/s    eta 53m 59s5.6.20-0-installer.   3%[                    ]   4.55M  32.4KB/s    eta 53m 59s.6.20-0-installer.r   3%[                    ]   4.56M  25.7KB/s    eta 53m 59s6.20-0-installer.ru   3%[                    ]   4.56M  25.5KB/s    eta 53m 59s.20-0-installer.run   3%[                    ]   4.57M  18.6KB/s    eta 55m 45s20-0-installer.run    3%[                    ]   4.67M  24.3KB/s    eta 55m 45s0-0-installer.run     3%[                    ]   4.70M  26.0KB/s    eta 55m 45s-0-installer.run      3%[                    ]   4.77M  28.9KB/s    eta 54m 10s0-installer.run       3%[                    ]   4.79M  29.0KB/s    eta 54m 10s-installer.run        3%[                    ]   4.81M  28.6KB/s    eta 54m 21sinstaller.run         3%[                    ]   4.82M  28.9KB/s    eta 54m 21snstaller.run          3%[                    ]   4.84M  29.7KB/s    eta 54m 33sstaller.run           3%[                    ]   4.85M  30.9KB/s    eta 54m 33staller.run            3%[                    ]   4.87M  28.4KB/s    eta 55m 10saller.run             3%[                    ]   4.88M  26.8KB/s    eta 55m 40sller.run              3%[                    ]   4.90M  24.9KB/s    eta 56m 14sler.run               3%[                    ]   4.92M  24.1KB/s    eta 56m 38ser.run                3%[                    ]   4.93M  22.4KB/s    eta 57m 10sr.run                 3%[                    ]   4.95M  21.3KB/s    eta 57m 28s.run                  3%[                    ]   4.96M  18.6KB/s    eta 58m 38srun                   3%[                    ]   5.01M  19.2KB/s    eta 58m 48sun                    3%[                    ]   5.07M  21.0KB/s    eta 58m 29sn                     3%[                    ]   5.09M  20.8KB/s    eta 58m 29s                      3%[                    ]   5.10M  24.9KB/s    eta 58m 36s                  x   3%[                    ]   5.12M  21.0KB/s    eta 58m 36s                 xa   3%[                    ]   5.13M  20.7KB/s    eta 58m 39s                xam   3%[                    ]   5.15M  18.3KB/s    eta 58m 39s               xamp   3%[                    ]   5.17M  18.0KB/s    eta 58m 48s              xampp   4%[                    ]   5.18M  18.1KB/s    eta 58m 48s             xampp-   4%[                    ]   5.20M  18.1KB/s    eta 58m 54s            xampp-l   4%[                    ]   5.21M  18.1KB/s    eta 58m 54s           xampp-li   4%[                    ]   5.23M  18.4KB/s    eta 58m 54s          xampp-lin   4%[                    ]   5.24M  18.2KB/s    eta 58m 58s         xampp-linu   4%[                    ]   5.26M  19.0KB/s    eta 59m 10s        xampp-linux   4%[                    ]   5.27M  19.9KB/s    eta 59m 10s       xampp-linux-   4%[                    ]   5.29M  21.1KB/s    eta 59m 19s      xampp-linux-x   4%[                    ]   5.31M  21.2KB/s    eta 59m 40s     xampp-linux-x6   4%[                    ]   5.32M  15.3KB/s    eta 62m 56s    xampp-linux-x64   4%[                    ]   5.34M  15.7KB/s    eta 62m 56s   xampp-linux-x64-   4%[                    ]   5.37M  18.3KB/s    eta 62m 45s  xampp-linux-x64-5   4%[                    ]   5.38M  18.1KB/s    eta 62m 45s xampp-linux-x64-5.   4%[                    ]   5.40M  15.9KB/s    eta 62m 52sxampp-linux-x64-5.6   4%[                    ]   5.46M  18.4KB/s    eta 62m 52sampp-linux-x64-5.6.   4%[                    ]   5.49M  19.2KB/s    eta 62m 52smpp-linux-x64-5.6.2   4%[                    ]   5.51M  19.5KB/s    eta 61m 59spp-linux-x64-5.6.20   4%[                    ]   5.52M  18.2KB/s    eta 62m 33sp-linux-x64-5.6.20-   4%[                    ]   5.57M  19.4KB/s    eta 62m 33s-linux-x64-5.6.20-0   4%[                    ]   5.63M  21.5KB/s    eta 61m 52slinux-x64-5.6.20-0-   4%[                    ]   5.71M  24.3KB/s    eta 61m 52sinux-x64-5.6.20-0-i   4%[                    ]   5.74M  24.4KB/s    eta 61m 16snux-x64-5.6.20-0-in   4%[                    ]   5.82M  27.6KB/s    eta 61m 16sux-x64-5.6.20-0-ins   4%[                    ]   5.84M  27.7KB/s    eta 61m 16sx-x64-5.6.20-0-inst   4%[                    ]   5.85M  28.1KB/s    eta 61m 16s-x64-5.6.20-0-insta   4%[                    ]   5.86M  28.1KB/s    eta 60m 33sx64-5.6.20-0-instal   4%[                    ]   5.88M  15.0KB/s    eta 67m 20s64-5.6.20-0-install   4%[                    ]   5.89M  14.5KB/s    eta 67m 52s4-5.6.20-0-installe   4%[                    ]   5.91M  14.5KB/s    eta 68m 9s -5.6.20-0-installer   4%[                    ]   5.93M  17.7KB/s    eta 68m 21s5.6.20-0-installer.   4%[                    ]   5.94M  17.2KB/s    eta 68m 41s.6.20-0-installer.r   4%[                    ]   5.96M  16.6KB/s    eta 68m 41s6.20-0-installer.ru   4%[                    ]   5.97M  16.5KB/s    eta 68m 45s.20-0-installer.run   4%[                    ]   5.98M  16.5KB/s    eta 68m 45s20-0-installer.run    4%[                    ]   5.98M  15.0KB/s    eta 68m 45s0-0-installer.run     4%[                    ]   5.98M  14.1KB/s    eta 68m 59s-0-installer.run      4%[                    ]   5.99M  13.9KB/s    eta 68m 59s0-installer.run       4%[                    ]   6.00M  14.2KB/s    eta 68m 59s-installer.run        4%[                    ]   6.00M  12.9KB/s    eta 69m 20sinstaller.run         4%[                    ]   6.02M  11.1KB/s    eta 69m 50snstaller.run          4%[                    ]   6.04M  9.25KB/s    eta 69m 50sstaller.run           4%[                    ]   6.05M  8.51KB/s    eta 70m 34staller.run            4%[                    ]   6.07M  6.65KB/s    eta 70m 43saller.run             4%[                    ]   6.08M  5.19KB/s    eta 74m 13sller.run              4%[                    ]   6.24M  8.17KB/s    eta 74m 13sler.run               4%[                    ]   6.32M  9.72KB/s    eta 74m 13ser.run                5%[>                   ]   6.52M  23.4KB/s    eta 74m 13sr.run                 5%[>                   ]   6.54M  25.0KB/s    eta 74m 13s.run                  5%[>                   ]   6.55M  26.0KB/s    eta 69m 2s run                   5%[>                   ]   6.57M  26.9KB/s    eta 69m 2s un                    5%[>                   ]   6.58M  28.3KB/s    eta 69m 2s n                     5%[>                   ]   6.60M  28.4KB/s    eta 68m 57s                      5%[>                   ]   6.61M  28.3KB/s    eta 68m 57s                  x   5%[>                   ]   6.63M  28.5KB/s    eta 68m 54s                 xa   5%[>                   ]   6.64M  28.7KB/s    eta 68m 54s                xam   5%[>                   ]   6.66M  29.4KB/s    eta 68m 54s               xamp   5%[>                   ]   6.72M  25.0KB/s    eta 70m 12s              xampp   5%[>                   ]   6.74M  24.5KB/s    eta 70m 26s             xampp-   5%[>                   ]   6.79M  25.6KB/s    eta 70m 22s            xampp-l   5%[>                   ]   7.19M  40.5KB/s    eta 70m 22s           xampp-li   5%[>                   ]   7.22M  42.0KB/s    eta 70m 22s          xampp-lin   5%[>                   ]   7.27M  45.2KB/s    eta 65m 52s         xampp-linu   5%[>                   ]   7.29M  46.3KB/s    eta 65m 52s        xampp-linux   5%[>                   ]   7.33M  70.9KB/s    eta 65m 33s       xampp-linux-   5%[>                   ]   7.36M  65.9KB/s    eta 65m 33s      xampp-linux-x   5%[>                   ]   7.38M  61.7KB/s    eta 65m 33s     xampp-linux-x6   5%[>                   ]   7.39M  52.4KB/s    eta 65m 16s    xampp-linux-x64   5%[>                   ]   7.41M  49.8KB/s    eta 65m 26s   xampp-linux-x64-   5%[>                   ]   7.50M  53.4KB/s    eta 65m 26s  xampp-linux-x64-5   5%[>                   ]   7.54M  49.0KB/s    eta 65m 3s  xampp-linux-x64-5.   5%[>                   ]   7.58M  52.0KB/s    eta 65m 3s xampp-linux-x64-5.6   5%[>                   ]   7.66M  54.7KB/s    eta 64m 11sampp-linux-x64-5.6.   5%[>                   ]   7.68M  54.8KB/s    eta 64m 11smpp-linux-x64-5.6.2   5%[>                   ]   7.69M  55.5KB/s    eta 64m 11spp-linux-x64-5.6.20   5%[>                   ]   7.71M  55.3KB/s    eta 64m 5s p-linux-x64-5.6.20-   5%[>                   ]   7.72M  77.2KB/s    eta 64m 5s -linux-x64-5.6.20-0   6%[>                   ]   7.75M  78.3KB/s    eta 64m 11slinux-x64-5.6.20-0-   6%[>                   ]   7.79M  71.5KB/s    eta 64m 33sinux-x64-5.6.20-0-i   6%[>                   ]   7.80M  40.7KB/s    eta 64m 47snux-x64-5.6.20-0-in   6%[>                   ]   7.82M  35.4KB/s    eta 65m 10sux-x64-5.6.20-0-ins   6%[>                   ]   7.83M  31.7KB/s    eta 65m 32sx-x64-5.6.20-0-inst   6%[>                   ]   7.85M  29.7KB/s    eta 65m 49s-x64-5.6.20-0-insta   6%[>                   ]   7.86M  27.2KB/s    eta 66m 10sx64-5.6.20-0-instal   6%[>                   ]   7.88M  25.1KB/s    eta 66m 26s64-5.6.20-0-install   6%[>                   ]   7.89M  21.1KB/s    eta 67m 20s4-5.6.20-0-installe   6%[>                   ]   7.91M  20.1KB/s    eta 67m 34s-5.6.20-0-installer   6%[>                   ]   7.93M  19.7KB/s    eta 67m 34s5.6.20-0-installer.   6%[>                   ]   7.94M  19.9KB/s    eta 67m 44s.6.20-0-installer.r   6%[>                   ]   7.96M  16.8KB/s    eta 67m 44s6.20-0-installer.ru   6%[>                   ]   7.97M  16.8KB/s    eta 67m 59s.20-0-installer.run   6%[>                   ]   7.99M  15.0KB/s    eta 68m 14s20-0-installer.run    6%[>                   ]   8.00M  12.2KB/s    eta 68m 33s0-0-installer.run     6%[>                   ]   8.02M  12.2KB/s    eta 68m 33s-0-installer.run      6%[>                   ]   8.02M  11.7KB/s    eta 68m 33s0-installer.run       6%[>                   ]   8.03M  11.0KB/s    eta 68m 49s-installer.run        6%[>                   ]   8.03M  10.7KB/s    eta 68m 49sinstaller.run         6%[>                   ]   8.03M  9.45KB/s    eta 69m 24snstaller.run          6%[>                   ]   8.04M  9.20KB/s    eta 69m 24sstaller.run           6%[>                   ]   8.04M  9.07KB/s    eta 69m 24staller.run            6%[>                   ]   8.04M  8.97KB/s    eta 69m 42saller.run             6%[>                   ]   8.05M  8.99KB/s    eta 69m 53sller.run              6%[>                   ]   8.07M  9.21KB/s    eta 70m 0s ler.run               6%[>                   ]   8.08M  9.65KB/s    eta 70m 0s er.run                6%[>                   ]   8.10M  10.1KB/s    eta 70m 4s r.run                 6%[>                   ]   8.11M  12.0KB/s    eta 70m 4s .run                  6%[>                   ]   8.13M  12.7KB/s    eta 70m 4s run                   6%[>                   ]   8.14M  13.1KB/s    eta 69m 57sun                    6%[>                   ]   8.16M  13.6KB/s    eta 69m 57sn                     6%[>                   ]   8.18M  14.2KB/s    eta 69m 57s                      6%[>                   ]   8.19M  15.1KB/s    eta 69m 57s                  x   6%[>                   ]   8.21M  16.4KB/s    eta 69m 38s                 xa   6%[>                   ]   8.22M  18.5KB/s    eta 69m 38s                xam   6%[>                   ]   8.24M  18.6KB/s    eta 69m 38s               xamp   6%[>                   ]   8.25M  20.0KB/s    eta 69m 38s              xampp   6%[>                   ]   8.27M  22.6KB/s    eta 69m 21s             xampp-   6%[>                   ]   8.29M  23.8KB/s    eta 69m 21s            xampp-l   6%[>                   ]   8.30M  30.3KB/s    eta 69m 21s           xampp-li   6%[>                   ]   8.32M  31.9KB/s    eta 69m 21s          xampp-lin   6%[>                   ]   8.33M  33.7KB/s    eta 69m 4s          xampp-linu   6%[>                   ]   8.35M  37.7KB/s    eta 69m 4s         xampp-linux   6%[>                   ]   8.36M  42.4KB/s    eta 69m 4s        xampp-linux-   6%[>                   ]   8.38M  47.2KB/s    eta 69m 4s       xampp-linux-x   6%[>                   ]   8.39M  51.2KB/s    eta 68m 47s     xampp-linux-x6   6%[>                   ]   8.41M  54.0KB/s    eta 68m 47s    xampp-linux-x64   6%[>                   ]   8.43M  55.9KB/s    eta 68m 47s   xampp-linux-x64-   6%[>                   ]   8.44M  56.8KB/s    eta 68m 47s  xampp-linux-x64-5   6%[>                   ]   8.46M  57.3KB/s    eta 68m 31s xampp-linux-x64-5.   6%[>                   ]   8.47M  57.2KB/s    eta 68m 31sxampp-linux-x64-5.6   6%[>                   ]   8.49M  56.7KB/s    eta 68m 31sampp-linux-x64-5.6.   6%[>                   ]   8.50M  56.4KB/s    eta 68m 31smpp-linux-x64-5.6.2   6%[>                   ]   8.52M  56.2KB/s    eta 68m 15spp-linux-x64-5.6.20   6%[>                   ]   8.55M  58.2KB/s    eta 68m 15sp-linux-x64-5.6.20-   6%[>                   ]   8.57M  58.1KB/s    eta 68m 15s-linux-x64-5.6.20-0   6%[>                   ]   8.58M  57.8KB/s    eta 68m 15slinux-x64-5.6.20-0-   6%[>                   ]   8.60M  57.5KB/s    eta 67m 53sinux-x64-5.6.20-0-i   6%[>                   ]   8.61M  57.8KB/s    eta 67m 53snux-x64-5.6.20-0-in   6%[>                   ]   8.63M  59.1KB/s    eta 67m 53sux-x64-5.6.20-0-ins   6%[>                   ]   8.64M  59.1KB/s    eta 67m 53sx-x64-5.6.20-0-inst   6%[>                   ]   8.66M  57.7KB/s    eta 67m 37s-x64-5.6.20-0-insta   6%[>                   ]   8.68M  57.6KB/s    eta 67m 37sx64-5.6.20-0-instal   6%[>                   ]   8.69M  55.8KB/s    eta 67m 37s64-5.6.20-0-install   6%[>                   ]   8.71M  53.5KB/s    eta 67m 31s4-5.6.20-0-installe   6%[>                   ]   8.72M  51.4KB/s    eta 67m 31s-5.6.20-0-installer   6%[>                   ]   8.74M  51.5KB/s    eta 67m 31s5.6.20-0-installer.   6%[>                   ]   8.75M  51.8KB/s    eta 67m 23s.6.20-0-installer.r   6%[>                   ]   8.77M  49.5KB/s    eta 67m 23s6.20-0-installer.ru   6%[>                   ]   8.79M  47.1KB/s    eta 67m 24s.20-0-installer.run   6%[>                   ]   8.80M  46.3KB/s    eta 67m 24s20-0-installer.run    6%[>                   ]   8.82M  23.6KB/s    eta 68m 49s0-0-installer.run     6%[>                   ]   8.89M  28.4KB/s    eta 68m 49s-0-installer.run      6%[>                   ]   8.91M  26.7KB/s    eta 68m 49s0-installer.run       6%[>                   ]   8.93M  26.3KB/s    eta 68m 13s-installer.run        7%[>                   ]   9.05M  28.0KB/s    eta 67m 58sinstaller.run         7%[>                   ]   9.30M  40.2KB/s    eta 66m 14snstaller.run          7%[>                   ]   9.35M  38.1KB/s    eta 66m 19sstaller.run           7%[>                   ]   9.39M  39.1KB/s    eta 66m 19staller.run            7%[>                   ]   9.47M  41.6KB/s    eta 65m 37saller.run             7%[>                   ]   9.61M  46.7KB/s    eta 65m 37sller.run              7%[>                   ]   9.63M  46.6KB/s    eta 64m 43sler.run               7%[>                   ]   9.64M  44.3KB/s    eta 64m 55ser.run                7%[>                   ]   9.74M  48.5KB/s    eta 64m 55sr.run                 7%[>                   ]   9.77M  49.3KB/s    eta 64m 55s.run                  7%[>                   ]   9.79M  49.3KB/s    eta 64m 9s run                   7%[>                   ]   9.80M  47.8KB/s    eta 64m 9s un                    7%[>                   ]   9.82M  42.0KB/s    eta 64m 48sn                     7%[>                   ]   9.83M  39.0KB/s    eta 65m 13s                      7%[>                   ]   9.85M  37.4KB/s    eta 65m 29s                  x   7%[>                   ]   9.86M  37.2KB/s    eta 65m 29s                 xa   7%[>                   ]   9.88M  47.9KB/s    eta 65m 29s                xam   7%[>                   ]   9.89M  41.0KB/s    eta 65m 50s               xamp   7%[>                   ]   9.91M  40.7KB/s    eta 65m 50s              xampp   7%[>                   ]   9.93M  37.5KB/s    eta 66m 19s             xampp-   7%[>                   ]   9.94M  34.1KB/s    eta 66m 46s            xampp-l   7%[>                   ]   9.96M  23.8KB/s    eta 67m 10s           xampp-li   7%[>                   ]   9.97M  22.7KB/s    eta 67m 28s          xampp-lin   7%[>                   ]   9.99M  20.4KB/s    eta 67m 46s         xampp-linu   7%[>                   ]  10.00M  17.8KB/s    eta 67m 54s        xampp-linux   7%[>                   ]  10.02M  13.5KB/s    eta 68m 0s xampp-linux-x64-5.6   7%[>                   ]  10.03M  13.8KB/s    in 5m 43s  
+
+2017-09-12 16:43:50 (29.9 KB/s) - Read error at byte 10515120/135465406 (Success). Retrying.
+
+--2017-09-12 16:43:51--  (try: 2)  https://downloadsapachefriends.global.ssl.fastly.net/xampp-files/5.6.20/xampp-linux-x64-5.6.20-0-installer.run?from_af=true
+Connecting to downloadsapachefriends.global.ssl.fastly.net (downloadsapachefriends.global.ssl.fastly.net)|151.101.52.249|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 135465406 (129M), 124950286 (119M) remaining [binary/octet-stream]
+Saving to: ‘xampp-linux-x64-5.6.20-0-installer.run’
+
+        [ skipping 10250K ]
+ 10250K ,,,,,,,,,, ,,,,,,,,.. .......... .......... ..........  7% 23.7K 2h16m
+ 10300K .......... .......... .......... .......... ..........  7% 28.5K 96m29s
+ 10350K .......... .......... .......... .......... ..........  7% 42.7K 77m51s
+ 10400K .......... .......... .......... .......... ..........  7% 27.1K 77m1s
+ 10450K .......... .......... .......... .......... ..........  7% 13.7K 92m24s
+ 10500K .......... .......... .......... .......... ..........  7% 14.3K 1h41m
+ 10550K .......... .......... .......... .......... ..........  8% 11.5K 1h52m
+ 10600K .......... .......... .......... .......... ..........  8% 16.9K 1h53m
+ 10650K .......... .......... .......... .......... ..........  8% 25.8K 1h49m
+ 10700K .......... .......... .......... .......... ..........  8% 21.1K 1h47m
+ 10750K .......... .......... .......... .......... ..........  8% 27.0K 1h44m
+ 10800K .......... .......... .......... .......... ..........  8% 29.8K 1h41m
+ 10850K .......... .......... .......... .......... ..........  8% 21.4K 1h41m
+ 10900K .......... .......... .......... .......... ..........  8% 25.9K 99m17s
+ 10950K .......... .......... .......... .......... ..........  8% 29.1K 97m12s
+ 11000K .......... .......... .......... .......... ..........  8% 15.2K 99m26s
+ 11050K .......... .......... .......... .......... ..........  8% 26.9K 97m56s
+ 11100K .......... .......... .......... .......... ..........  8% 16.0K 99m29s
+ 11150K .......... .......... .......... .......... ..........  8% 32.5K 97m26s
+ 11200K .......... .......... .......... .......... ..........  8% 16.7K 98m36s
+ 11250K .......... .......... .......... .......... ..........  8% 15.4K 1h40m
+ 11300K .......... .......... .......... .......... ..........  8% 6.67K 1h49m
+ 11350K .......... .......... .......... .......... ..........  8% 9.04K 1h54m
+ 11400K .......... .......... .......... .......... ..........  8% 3.27K 2h15m
+ 11450K .......... .......... .......... .......... ..........  8% 9.03K 2h19m
+ 11500K .......... .......... .......... .......... ..........  8% 12.2K 2h20m
+ 11550K .......... .......... .......... .......... ..........  8% 13.3K 2h20m
+ 11600K .......... .......... .......... .......... ..........  8% 6.03K 2h27m
+ 11650K .......... .......... .......... .......... ..........  8% 13.1K 2h27m
+ 11700K .......... .......... .......... .......... ..........  8% 12.8K 2h27m
+ 11750K .......... .......... .......... .......... ..........  8% 13.9K 2h27m
+ 11800K .......... .......... .......... .......... ..........  8% 19.7K 2h26m
+ 11850K .......... .......... .......... .......... ..........  8% 23.9K 2h24m
+ 11900K .......... .......... .......... .......... ..........  9% 14.8K 2h23m
+ 11950K .......... .......... .......... .......... ..........  9% 14.1K 2h23m
+ 12000K .......... .......... .......... .......... ..........  9% 27.2K 2h21m
+ 12050K .......... .......... .......... .......... ..........  9% 20.5K 2h20m
+ 12100K .......... .......... .......... .......... ..........  9% 87.2K 2h17m
+ 12150K .......... .......... .......... .......... ..........  9% 22.8K 2h15m
+ 12200K .......... .......... .......... .......... ..........  9% 50.3K 2h13m
+ 12250K .......... .......... .......... .......... ..........  9% 17.2K 2h12m
+ 12300K .......... .......... .......... .......... ..........  9% 43.4K 2h10m
+ 12350K .......... .......... .......... .......... ..........  9% 22.4K 2h9m
+ 12400K .......... .......... .......... .......... ..........  9% 32.4K 2h8m
+ 12450K .......... .......... .......... .......... ..........  9% 23.7K 2h7m
+ 12500K .......... .......... .......... .......... ..........  9% 35.1K 2h5m
+ 12550K .......... .......... .......... .......... ..........  9% 14.6K 2h5m
+ 12600K .......... .......... .......... .......... ..........  9% 20.4K 2h5m
+ 12650K .......... .......... .......... .......... ..........  9% 22.4K 2h4m
+ 12700K .......... .......... .......... .......... ..........  9% 15.9K 2h4m
+ 12750K .......... .......... .......... .......... ..........  9% 25.2K 2h3m
+ 12800K .......... .......... .......... .......... ..........  9% 33.0K 2h2m
+ 12850K .......... .......... .......... .......... ..........  9% 21.2K 2h1m
+ 12900K .......... .......... .......... .......... ..........  9% 30.4K 2h0m
+ 12950K .......... .......... .......... .......... ..........  9% 26.0K 1h59m
+ 13000K .......... .......... .......... .......... ..........  9% 14.2K 1h59m
+ 13050K .......... .......... .......... .......... ..........  9% 40.1K 1h58m
+ 13100K .......... .......... .......... .......... ..........  9% 24.0K 1h57m
+ 13150K .......... .......... .......... .......... ..........  9% 41.3K 1h56m
+ 13200K .......... .......... .......... .......... .......... 10% 18.1K 1h56m
+ 13250K .......... .......... .......... .......... .......... 10% 9.53K 1h57m
+ 13300K .......... .......... .......... .......... .......... 10% 19.2K 1h57m
+ 13350K .......... .......... .......... .......... .......... 10% 25.8K 1h56m
+ 13400K .......... .......... .......... .......... .......... 10% 32.9K 1h55m
+ 13450K .......... .......... .......... .......... .......... 10% 27.3K 1h55m
+ 13500K .......... .......... .......... .......... .......... 10% 11.8K 1h56m
+ 13550K .......... .......... .......... .......... .......... 10% 20.8K 1h55m
+ 13600K .......... .......... .......... .......... .......... 10% 12.4K 1h56m
+ 13650K .......... .......... .......... .......... .......... 10% 21.4K 1h55m
+ 13700K .......... .......... .......... .......... .......... 10% 10.2K 1h56m
+ 13750K .......... .......... .......... .......... .......... 10% 26.4K 1h56m
+ 13800K .......... .......... .......... .......... .......... 10% 17.1K 1h56m
+ 13850K .......... .......... .......... .......... .......... 10% 18.4K 1h56m
+ 13900K .......... .......... .......... .......... .......... 10% 11.9K 1h56m
+ 13950K .......... .......... .......... .......... .......... 10% 10.4K 1h57m
+ 14000K .......... .......... .......... .......... .......... 10% 22.9K 1h57m
+ 14050K .......... .......... .......... .......... .......... 10% 32.7K 1h56m
+ 14100K .......... .......... .......... .......... .......... 10% 21.9K 1h55m
+ 14150K .......... .......... .......... .......... .......... 10% 21.7K 1h55m
+ 14200K .......... .......... .......... .......... .......... 10% 19.9K 1h55m
+ 14250K .......... .......... .......... .......... .......... 10% 13.2K 1h55m
+ 14300K .......... .......... .......... .......... .......... 10% 24.4K 1h55m
+ 14350K .......... .......... .......... .......... .......... 10% 24.4K 1h54m
+ 14400K .......... .......... .......... .......... .......... 10% 28.9K 1h54m
+ 14450K .......... .......... .......... .......... .......... 10% 33.4K 1h53m
+ 14500K .......... .......... .......... .......... .......... 10% 21.7K 1h53m
+ 14550K .......... .......... .......... .......... .......... 11% 32.6K 1h52m
+ 14600K .......... .......... .......... .......... .......... 11% 17.9K 1h52m
+ 14650K .......... .......... .......... .......... .......... 11% 19.8K 1h52m
+ 14700K .......... .......... .......... .......... .......... 11% 16.5K 1h52m
+ 14750K .......... .......... .......... .......... .......... 11%  115M 1h50m
+ 14800K .......... .......... .......... .......... .......... 11% 23.0K 1h50m
+ 14850K .......... .......... .......... .......... .......... 11% 41.9K 1h49m
+ 14900K .......... .......... .......... .......... .......... 11% 19.5K 1h49m
+ 14950K .......... .......... .......... .......... .......... 11% 42.8K 1h49m
+ 15000K .......... .......... .......... .......... .......... 11% 30.5K 1h48m
+ 15050K .......... .......... .......... .......... .......... 11% 16.0K 1h48m
+ 15100K .......... .......... .......... .......... .......... 11% 30.6K 1h48m
+ 15150K .......... .......... .......... .......... .......... 11% 16.4K 1h48m
+ 15200K .......... .......... .......... .......... .......... 11% 14.2K 1h48m
+ 15250K .......... .......... .......... .......... .......... 11% 22.2K 1h48m
+ 15300K .......... .......... .......... .......... .......... 11% 27.0K 1h47m
+ 15350K .......... .......... .......... .......... .......... 11% 16.0K 1h47m
+ 15400K .......... .......... .......... .......... .......... 11% 47.2K 1h47m
+ 15450K .......... .......... .......... .......... .......... 11% 21.4K 1h46m
+ 15500K .......... .......... .......... .......... .......... 11% 32.6K 1h46m
+ 15550K .......... .......... .......... .......... .......... 11% 12.2K 1h46m
+ 15600K .......... .......... .......... .......... .......... 11%  122M 1h45m
+ 15650K .......... .......... .......... .......... .......... 11% 32.9K 1h45m
+ 15700K .......... .......... .......... .......... .......... 11% 15.4K 1h45m
+ 15750K .......... .......... .......... .......... .......... 11% 21.8K 1h45m
+ 15800K .......... .......... .......... .......... .......... 11% 54.2K 1h44m
+ 15850K .......... .......... .......... .......... .......... 12% 25.1K 1h44m
+ 15900K .......... .......... .......... .......... .......... 12% 40.3K 1h43m
+ 15950K .......... .......... .......... .......... .......... 12% 17.1K 1h43m
+ 16000K .......... .......... .......... .......... .......... 12% 38.3K 1h43m
+ 16050K .......... .......... .......... .......... .......... 12% 14.2K 1h43m
+ 16100K .......... .......... .......... .......... .......... 12% 12.9K 1h43m
+ 16150K .......... .......... .......... .......... .......... 12%  142M 1h43m
+ 16200K .......... .......... .......... .......... .......... 12% 23.4K 1h42m
+ 16250K .......... .......... .......... .......... .......... 12% 16.7K 1h42m
+ 16300K .......... .......... .......... .......... .......... 12% 47.3K 1h42m
+ 16350K .......... .......... .......... .......... .......... 12%  115M 1h41m
+ 16400K .......... .......... .......... .......... .......... 12% 6.59K 1h42m
+ 16450K .......... .......... .......... .......... .......... 12%  189M 1h42m
+ 16500K .......... .......... .......... .......... .......... 12%  194M 1h41m
+ 16550K .......... .......... .......... .......... .......... 12% 15.4K 1h41m
+ 16600K .......... .......... .......... .......... .......... 12% 12.6K 1h41m
+ 16650K .......... .......... .......... .......... .......... 12% 28.6K 1h41m
+ 16700K .......... .......... .......... .......... .......... 12% 72.7K 1h40m
+ 16750K .......... .......... .......... .......... .......... 12% 11.8K 1h41m
+ 16800K .......... .......... .......... .......... .......... 12%  183K 1h40m
+ 16850K .......... .......... .......... .......... .......... 12% 30.7K 1h40m
+ 16900K .......... .......... .......... .......... .......... 12% 15.0K 1h40m
+ 16950K .......... .......... .......... .......... .......... 12% 6.05K 1h41m
+ 17000K .......... .......... .......... .......... .......... 12%  140M 1h41m
+ 17050K .......... .......... .......... .......... .......... 12%  144M 1h40m
+ 17100K .......... .......... .......... .......... .......... 12%  156M 99m34s
+ 17150K .......... .......... .......... .......... .......... 13% 99.6K 98m57s
+ 17200K .......... .......... .......... .......... .......... 13% 19.9K 98m53s
+ 17250K .......... .......... .......... .......... .......... 13% 12.1K 99m16s
+ 17300K .......... .......... .......... .......... .......... 13%  167M 98m32s
+ 17350K .......... .......... .......... .......... .......... 13% 16.6K 98m36s
+ 17400K .......... .......... .......... .......... .......... 13% 11.1K 99m5s
+ 17450K .......... .......... .......... .......... .......... 13% 74.8M 98m21s
+ 17500K .......... .......... .......... .......... .......... 13% 7.43K 99m24s
+ 17550K .......... .......... .......... .......... .......... 13%  533K 98m42s
+ 17600K .......... .......... .......... .......... .......... 13%  144M 98m0s
+ 17650K .......... .......... .......... .......... .......... 13% 13.8K 98m13s
+ 17700K .......... .......... .......... .......... .......... 13% 20.2K 98m9s
+ 17750K .......... .......... .......... .......... .......... 13%  178M 97m28s
+ 17800K .......... .......... .......... .......... .......... 13% 47.5K 97m2s
+ 17850K .......... .......... .......... .......... .......... 13% 16.9K 97m6s
+ 17900K .......... .......... .......... .......... .......... 13% 55.3K 96m39s
+ 17950K .......... .......... .......... .......... .......... 13% 26.1K 96m27s
+ 18000K .......... .......... .......... .......... .......... 13% 19.5K 96m25s
+ 18050K .......... .......... .......... .......... .......... 13% 13.0K 96m42s
+ 18100K .......... .......... .......... .......... .......... 13% 10.6K 97m11s
+ 18150K .......... .......... .......... .......... .......... 13% 19.8K 97m8s
+ 18200K .......... .......... .......... .......... .......... 13% 12.8K 97m25s
+ 18250K .......... .......... .......... .......... .......... 13% 16.7K 97m28s
+ 18300K .......... .......... .......... .......... .......... 13% 28.9K 97m14s
+ 18350K .......... .......... .......... .......... .......... 13% 27.4K 97m1s
+ 18400K .......... .......... .......... .......... .......... 13% 58.7K 96m35s
+ 18450K .......... .......... .......... .......... .......... 13% 32.1K 96m19s
+ 18500K .......... .......... .......... .......... .......... 14%  311K 95m43s
+ 18550K .......... .......... .......... .......... .......... 14% 56.3K 95m19s
+ 18600K .......... .......... .......... .......... .......... 14% 35.7K 95m1s
+ 18650K .......... .......... .......... .......... .......... 14% 40.7K 94m41s
+ 18700K .......... .......... .......... .......... .......... 14% 19.1K 94m40s
+ 18750K .......... .......... .......... .......... .......... 14% 11.4K 95m3s
+ 18800K .......... .......... .......... .......... .......... 14% 8.92K 95m41s
+ 18850K .......... .......... .......... .......... .......... 14% 6.71K 96m43s
+ 18900K .......... .......... .......... .......... .......... 14% 17.0K 96m45s
+ 18950K .......... .......... .......... .......... .......... 14% 22.4K 96m39s
+ 19000K .......... .......... .......... .......... .......... 14% 17.4K 96m40s
+ 19050K .......... .......... .......... .......... .......... 14% 14.5K 96m49s
+ 19100K .......... .......... .......... .......... .......... 14%  127K 96m19s
+ 19150K .......... .......... .......... .......... .......... 14% 25.1K 96m9s
+ 19200K .......... .......... .......... .......... .......... 14% 25.7K 95m59s
+ 19250K .......... .......... .......... .......... .......... 14% 16.6K 96m2s
+ 19300K .......... .......... .......... .......... .......... 14% 36.4K 95m45s
+ 19350K .......... .......... .......... .......... .......... 14% 23.5K 95m37s
+ 19400K .......... .......... .......... .......... .......... 14% 23.1K 95m30s
+ 19450K .......... .......... .......... .......... .......... 14% 15.5K 95m36s
+ 19500K .......... .......... .......... .......... .......... 14%  108K 95m8s
+ 19550K .......... .......... .......... .......... .......... 14% 26.7K 94m58s
+ 19600K .......... .......... .......... .......... .......... 14% 26.2K 94m48s
+ 19650K .......... .......... .......... .......... .......... 14% 67.4K 94m24s
+ 19700K .......... .......... .......... .......... .......... 14% 24.9K 94m15s
+ 19750K .......... .......... .......... .......... .......... 14% 38.2K 93m59s
+ 19800K .......... .......... .......... .......... .......... 15% 27.8K 93m48s
+ 19850K .......... .......... .......... .......... .......... 15% 36.6K 93m32s
+ 19900K .......... .......... .......... .......... .......... 15% 17.5K 93m34s
+ 19950K .......... .......... .......... .......... .......... 15% 8.60K 94m9s
+ 20000K .......... .......... .......... .......... .......... 15% 26.4K 94m0s
+ 20050K .......... .......... .......... .......... .......... 15% 12.1K 94m16s
+ 20100K .......... .......... .......... .......... .......... 15% 4.98K 95m39s
+ 20150K .......... .......... .......... ....                  15% 7.83K=8m30s
+
+2017-09-12 17:07:23 (19.4 KB/s) - Read error at byte 20668908/135465406 (Success). Retrying.
+
+--2017-09-12 17:07:25--  (try: 3)  https://downloadsapachefriends.global.ssl.fastly.net/xampp-files/5.6.20/xampp-linux-x64-5.6.20-0-installer.run?from_af=true
+Connecting to downloadsapachefriends.global.ssl.fastly.net (downloadsapachefriends.global.ssl.fastly.net)|151.101.52.249|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 135465406 (129M), 114796498 (109M) remaining [binary/octet-stream]
+Saving to: ‘xampp-linux-x64-5.6.20-0-installer.run’
+
+        [ skipping 20150K ]
+ 20150K ,,,,,,,,,, ,,,,,,,,,, ,,,,,,,,,, ,,,,...... .......... 15% 19.1K 5h15m
+ 20200K .......... .......... .......... .......... .......... 15% 3.05K 9h1m
+ 20250K .......... .......... .......... .......... .......... 15% 3.95K 8h31m
+ 20300K .......... .......... .......... .......... .......... 15% 4.25K 8h9m
+ 20350K .......... .......... .......... .......... .......... 15%  568  19h16m
+ 20400K .......... .......... .......... .......... .......... 15% 63.0  4d14h
+ 20450K .......... .......... ..........                       15% 4.97K=15m52s
+
+2017-09-12 17:23:28 (318 B/s) - Connection closed at byte 20971983. Retrying.
+
+--2017-09-12 17:23:31--  (try: 4)  https://downloadsapachefriends.global.ssl.fastly.net/xampp-files/5.6.20/xampp-linux-x64-5.6.20-0-installer.run?from_af=true
+Connecting to downloadsapachefriends.global.ssl.fastly.net (downloadsapachefriends.global.ssl.fastly.net)|151.101.52.249|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 135465406 (129M), 114493423 (109M) remaining [binary/octet-stream]
+Saving to: ‘xampp-linux-x64-5.6.20-0-installer.run’
+
+        [ skipping 20450K ]
+ 20450K ,,,,,,,,,, ,,,,,,,,,, ,,,,,,,,,, .......... .......... 15% 47.6K 1h40m
+ 20500K .......... .......... .......... .......... .......... 15% 16.9K 1h47m
+ 20550K .......... .......... .......... .......... .......... 15% 1.21K 11h47m
+ 20600K .......... .......... .........                        15% 1.07K=73s
+
+2017-09-12 18:30:17 (2.04 KB/s) - Read error at byte 21124957/135465406 (Success). Retrying.
+
+--2017-09-12 18:30:21--  (try: 5)  https://downloadsapachefriends.global.ssl.fastly.net/xampp-files/5.6.20/xampp-linux-x64-5.6.20-0-installer.run?from_af=true
+Connecting to downloadsapachefriends.global.ssl.fastly.net (downloadsapachefriends.global.ssl.fastly.net)|151.101.52.249|:443... failed: Network is unreachable.
+Resolving downloadsapachefriends.global.ssl.fastly.net (downloadsapachefriends.global.ssl.fastly.net)... failed: Name or service not known.
+wget: unable to resolve host address ‘downloadsapachefriends.global.ssl.fastly.net’
