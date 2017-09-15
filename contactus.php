@@ -50,7 +50,7 @@
                     $subject = $_POST['subject'];
                     //$content = "<strong>Name:</strong>" .($_POST['inputFname']). ($_POST['inputLname']);
                     //$content = $_POST['content'];
-                    $content = "First Name :".$inputFname.' Last Name :'.$inputLname."<br><br>".$_POST['content'];
+                    $content = "First Name :".$inputFname.'  Last Name :'.$inputLname."\n \n".$_POST['content'];
                     $headers ="From: ".$_POST['email'];//.'<'.$_POST['inputFname'].$_POST['inputLname'];
 
 
@@ -93,15 +93,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
-<style type="text/css">{
-    
-    hr.style1{
-	border-top: 1px solid #8c8b8b;
-}
-    
-    }
-</style>
-    
+
 
   </head>
 
@@ -199,46 +191,50 @@
           
           
           
-          <footer>
+          <footer style="background-color:#4f4f4f;">
   <div class="container">
     <div class="row mt-3">
-    <div class="col-md-3 col-xs-3">
-     <h3>Contact us</h3>
-      <a href="">Home</a><br>
-      <a href="">Link</a><br>
-      <a href="">Link</a><br>
-      <a href="">Link</a><br>
+    
+
+	 <div class="col-md-3 col-xs-3 mt-4">
+      <a href="index.html"><img src="img/edcpng.png" height="40px" width="120px"  ></a><br><br>
+      <p style="color:white;"> Bhararti Vidyapeeth University,</p>
+      <p style="color:white;">College of Engineering,</p>
+      <p style="color:white;">Pune-411043.</p>
+    </div>
+
+	<div class="col-md-3 col-xs-3 mt-4">
+
+     <h4>Main</h4><br>
+      <a href="index.html" style="color:white;">Home</a><br>
+      <a href="about-us.html" style="color:white;">About Us</a><br>
+      <a href="contactus.php" style="color:white;">Contact Us</a><br>
+      <a href="initiatives.html" style="color:white;">Initiatives</a><br>
     
     </div>
 
-    <div class="col-md-3 col-xs-3">
-    <h3>Recent Events</h3>
-      <a href="">Home</a><br>
-      <a href="">Link</a><br>
-      <a href="">Link</a><br>
-      <a href="">Link</a><br>
+    <div class="col-md-3 col-xs-3 mt-4">
+    <h4>Events</h4><br>
+      <a href="" style="color:white;">Startup Conclave</a><br>
+      <a href="" style="color:white;">SEC 17</a><br>
+      <a href="" style="color:white;">E-Summit</a><br>
+      <a href="" style="color:white;">Internstellar</a><br>
     </div>
 
-    <div class="col-md-3 col-xs-3">
-    <h3>Social</h3>
-      <a href="">Home</a><br>
-      <a href="">Link</a><br>
-      <a href="">Link</a><br>
-      <a href="">Link</a><br>
+    <div class="col-md-3 col-xs-3 mt-4">
+    <h4>Social</h4><br>
+      <a href=""><img src="img/fb.png" height="20px" width="20px"></a><br>
+      <a href=""><img src="img/twi.png" height="20px" width="20px"></a><br>
+      <a href=""><img src="img/goog.png" height="20px" width="20px"></a><br>
+      <a href=""><img src="img/li.png" height="20px" width="20px"></a><br>
     </div>
 
-    <div class="col-md-3 col-xs-3">
-    <h3>Contact us</h3>
-      <a href="">Home</a><br>
-      <a href="">Link</a><br>
-      <a href="">Link</a><br>
-      <a href="">Link</a><br>
-    </div>
+   
 
   </div>
       <div class="mb-2 mt-2">
-        <p class="text-center"> 
-           <strong>EDC (Entrepreneurship Development Cell)</strong>
+        <p class="text-center" style="color:white;"> 
+           EDC (Entrepreneurship Development Cell)
         </p>
       </div>
 
@@ -307,4 +303,5 @@ return true;
     </script>
 
   </body>
+      
 </html>
