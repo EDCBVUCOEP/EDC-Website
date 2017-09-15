@@ -46,11 +46,11 @@
 
                     $inputFname= $_POST['inputFname'];
                     $inputLname= $_POST['inputLname'];
-                    $emailTo = "harshit.bvucoep@gmail.com";
+                    $emailTo = "edcbvucoep@gmail.com";
                     $subject = $_POST['subject'];
                     //$content = "<strong>Name:</strong>" .($_POST['inputFname']). ($_POST['inputLname']);
                     //$content = $_POST['content'];
-                    $content = "First Name :".$inputFname.' Last Name :'.$inputLname."".$_POST['content'];
+                    $content = "First Name :".$inputFname.' Last Name :'.$inputLname."<br><br>".$_POST['content'];
                     $headers ="From: ".$_POST['email'];//.'<'.$_POST['inputFname'].$_POST['inputLname'];
 
 
