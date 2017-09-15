@@ -107,37 +107,34 @@
 
 
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-    <a class="navbar-brand" href="#"> <img src="edc.png" alt="Mountain View" style="width:140px;height:40px;">   </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top ">
 
-    <li class="nav-item active">
-      <a class="nav-link" href="#" >Home   <span class="sr-only">(current)</span></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#" >About Us   </a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#" >Associates   </a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#" >Initiatives   </a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#" >Blogs   </a>
-    </li>
+      <a class="navbar-brand" href="index.html"> <img src="img/edcpng.png" alt="Mountain View" style="width:120px;height:40px;">   </a>
 
-    <li class="nav-item">
-      <a class="nav-link" href="#" >Contact Us   </a>
-    </li>
-   </ul>
-
-</div>
-</nav>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto ">
+          <li class="nav-item active ">
+            <a class="nav-link" href="index.html">Home   <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="about-us.html">About Us   </a>
+          </li>
+  
+          <li class="nav-item">
+            <a class="nav-link" href="initiatives.html">Initiatives   </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blogs.html">Blogs   </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactus.php">Contact Us   </a>
+          </li>
+         </ul>
+      </div>
+    </nav>
 
       <div class="container">
 
