@@ -83,6 +83,8 @@
 
 
   <head>
+      
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<link rel="icon" type="image/png" href="img/flavcon.png" style="height:128px;width:128px;" />
 
@@ -195,7 +197,7 @@
   <div class="container mb-3">
     <div class="row mt-3">
 	 <div class="col-md-3 col-xs-3 mt-4">
-      <a href="index.html"><img src="img/edcpng.png" height="40px" width="120px"  ></a><br><br>
+      <a href="index.html"><img src="img/edc-white.png" height="40px" width="120px"  ></a><br><br>
       <p style="color:white;"> Bhararti Vidyapeeth University,<br>
      College of Engineering,<br>
       Pune-411043.</p>
@@ -244,13 +246,8 @@
      </p>
    </div>
 </div>
-
-         
-      
-    
-  
-
    </footer>
+
           
 
     <!-- Optional JavaScript -->
