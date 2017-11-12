@@ -168,7 +168,7 @@
         </div>
 
 <div class="container mx-auto" style="width: 110px;">
-<a href="events.html"><button type="button" class="btn btn-primary mb-4 mt-4" >See More</button></a>
+<a class="showcase-btn"href="events.html"><button type="button" class="btn btn-primary mb-4 mt-4" >See More</button></a>
 </div>
 
 
@@ -244,7 +244,7 @@
       Pune-411043.</p>
     </div>
 
-	<div class="col-md-3 col-xs-3 mt-3">
+	<div class="col-md-3 col-xs-3 mt-3 hello">
 
      <h4 style="color: white">Main</h4><br>
       <a href="index.html" style="color:white;">Home</a><br>
@@ -254,27 +254,27 @@
 
     </div>
 
-    <div class="col-md-3 col-xs-3 mt-3">
+    <div class="col-md-3 col-xs-3 mt-3 hello">
     <h4 style="color: white">Events</h4><br>
-      <a href="" style="color:white;">Startup Conclave</a><br>
-      <a href="" style="color:white;">SEC 17</a><br>
-      <a href="" style="color:white;">E-Summit</a><br>
-      <a href="" style="color:white;">Internstellar</a><br>
+      <a href="" style="color:white; font-family:Poppins;">Startup Conclave</a><br>
+      <a href="" style="color:white; font-family:Poppins;">SEC 17</a><br>
+      <a href="" style="color:white; font-family:Poppins;">E-Summit</a><br>
+      <a href="" style="color:white; font-family:Poppins;">Internstellar</a><br>
     </div>
 
-    <div class="col-md-3 col-xs-3 mt-3">
-    <h4 style="color: white">Social</h4><br>
-      <a href="https://www.facebook.com/edcbvucoep/?fref=ts"><i class="fa fa-facebook fa-lg"></i></a><br>
-      <a href="https://twitter.com/edcbvucoep"><i class="fa fa-twitter fa-lg"></i></a><br>
-      <a href="https://plus.google.com/u/0/105610136565320498225"><i class="fa fa-google-plus fa-lg"></i></a><br>
-      <a href="https://www.linkedin.com/in/e-cell-bvucoep-a21389107/"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a><br>
+    <div class="col-md-3 col-xs-3 mt-3 hello">
+    <h4 style="color: white" >Social</h4><br>
+      <a class="ft col" href="https://www.facebook.com/edcbvucoep/?fref=ts"><i class="fa fa-facebook fa-lg"></i></a><br>
+      <a class="ft col" href="https://twitter.com/edcbvucoep"><i class="fa fa-twitter fa-lg"></i></a><br>
+      <a class="ft col" href="https://plus.google.com/u/0/105610136565320498225"><i class="fa fa-google-plus fa-lg"></i></a><br>
+      <a class="ft col " href="https://www.linkedin.com/in/e-cell-bvucoep-a21389107/"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a><br>
     </div>
   </div>
   </div>
 <div class="container-fluid mt-2" style="background-color: #020202">
    <div class="row">
      <p class="text-center" style="color: white;">
-       Entrepreneurship Development Cell | Bharati Vidyapeeth University College of Engineering, Pune (INDIA)
+       Entrepreneurship Development Cell <br> Bharati Vidyapeeth University College of Engineering, Pune (INDIA)
      </p>
    </div>
 </div>
@@ -308,7 +308,8 @@ crossorigin="anonymous"></script>
    duration:700,
    delay:00,
    distance:'300px',
-   origin:'right'
+   origin:'right',
+   reset:true
  });
 // animation for the about us button
  sr.reveal('.aboutus-anim',{
@@ -365,6 +366,12 @@ crossorigin="anonymous"></script>
 // putting the same animation to the same heading
  sr.reveal('.head-anim', {
    duration: 3000,
+   origin:'bottom',
+   reset:true
+ });
+ sr.reveal('.showcase-btn', {
+   duration: 2000,
+   delay: 1500,
    origin:'bottom',
    reset:true
  });

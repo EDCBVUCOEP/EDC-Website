@@ -8,4 +8,15 @@ p{
 
 footer{
   padding: 30px;
+  font-family:Poppins;
+}
+
+.ft{
+  display:flex;
+  align-items:center
+}
+
+.hello {
+  line-height: 25px;
+  in-li
 }
