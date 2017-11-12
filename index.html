@@ -133,7 +133,7 @@
 
 <div class="container-fluid pt-4 pb-3 " style="background-color:#F7F5E6;">
 
-<p class="text-center display-4 pm-anim-1">Principal's Message</p>
+<p class="text-center display-4 head-anim">Principal's Message</p>
 <hr style="height:2px; color:black; background-color:black;" width="40">
 <div class="row container mt-4 mb-4">
 <div class="col-md">
@@ -148,7 +148,7 @@
     </div>
 
 
-<h2 class="text-center display-4 pt-3">Our Events</h2>
+<h2 class="text-center display-4 pt-3 head-anim">Our Events</h2>
 
 <hr style="height:2px; color:black; background-color:black;" width="40"><br>
   <div class="container">
@@ -173,7 +173,7 @@
 
 
     <div class="container-fluid pt-3 pb-3" style="background-color: #F7F5E6;">
-<p class="text-center display-4" style="color:black;">Startups</p>
+<p class="text-center display-4 head-anim" style="color:black;">Startups</p>
 <hr style="height:2px; color:black; background-color:black;" width="40">
 <div class="container">
 
@@ -197,11 +197,11 @@
 
 
 <div class="container">
-<p class=" text-center container display-4 pt-4">Founder's Message</p>
+<p class=" text-center container display-4 pt-4 head-anim">Founder's Message</p>
 <hr style="height:2px; color:black; background-color:black;" width="40">
 <div class="row container pb-4">
-<img src="img/400_300 image/founder.png" class="img-thumbnail rounded mx-auto d-block" style="height:300px;width:300px;margin-left:200px;margin-top:20px;margin-bottom:20px;">
-<div class="col-md-6" style="margin-left:40px;margin-right:40px;margin-top:20px;">
+<img src="img/400_300 image/founder.png" class="pimg-anim img-thumbnail rounded mx-auto d-block" style="height:300px;width:300px;margin-left:200px;margin-top:20px;margin-bottom:20px;">
+<div class="col-md-6 pm-anim" style="margin-left:40px;margin-right:40px;margin-top:20px;">
 <p>I believe "success follows those who follow their heart", with this thought process, I Vaibhav Goel, founded "Entrepreneurship Development Cell" at Bharati Vidyapeeth College of Engineering, Pune in 2013. The motive of this E-Cell is to promote entrepreneurship among the curious youth who wish to gain knowledge about it. E-Cell BVU Pune, has successfully developed the qualities which are required for being a successful entrepreneurship cell. The E-Cell has successfully performed itself from a team of 2 to 3 members to a team of 80 members who put their heart and soul to make each event a great success. I would really like to see the E-Cell, founded by me, to reach great heights, as it has in these four years. Startup Conclave, yet another event would add on to its glory and prestige.</p>
 
 </div>
@@ -213,7 +213,7 @@
     <div class="container-fluid pt-3 pb-3" style="background-color:#F7F5E6;">
 
   <div class="container">
-    <p class="text-center display-4">Testimonial</p>
+    <p class="text-center display-4 head-anim">Testimonial</p>
 <hr style="height:2px; color:black; background-color:black;" width="40">
 	<blockquote class="blockquote">
     <p class="mb-0">"Everyone has ideas. They may be too busy or lack the confidence or technical ability to carry them out. But I want to carry them out. It is a matter of getting up and doing it."”</p>
@@ -223,7 +223,7 @@
 
 </div>
 
-<p class="text-center container display-4 pt-4">Collaborations</p>
+<p class="text-center container display-4 pt-4 head-anim">Collaborations</p>
 <hr style="height:2px; color:black; background-color:black;" width="40">
 
 <div class="tech-slideshow">
@@ -235,7 +235,7 @@
 
 
 <footer style="background-color:#151515;">
-  <div class="container mb-3">
+  <div class="container mb-3 ">
     <div class="row mt-3">
 	 <div class="col-md-3 col-xs-3 mt-4">
       <a href="index.html"><img src="img/edc-white.png" height="40px" width="120px"  ></a><br><br>
@@ -264,13 +264,10 @@
 
     <div class="col-md-3 col-xs-3 mt-3">
     <h4 style="color: white">Social</h4><br>
-      <a href="https://www.facebook.com/edcbvucoep/?fref=ts"><img src="img/fb.png" height="20px" width="20px"></a><br>
-      <a href="https://twitter.com/edcbvucoep"><img src="img/twi.png" height="20px" width="20px"></a><br>
-      <a href="https://plus.google.com/u/0/105610136565320498225"><img src="img/goog.png" height="20px" width="20px"></a><br>
-      <a href="https://www.linkedin.com/in/e-cell-bvucoep-a21389107/"><img src="img/li.png" height="20px" width="20px"></a><br>
-
-
-
+      <a href="https://www.facebook.com/edcbvucoep/?fref=ts"><i class="fa fa-facebook fa-lg"></i></a><br>
+      <a href="https://twitter.com/edcbvucoep"><i class="fa fa-twitter fa-lg"></i></a><br>
+      <a href="https://plus.google.com/u/0/105610136565320498225"><i class="fa fa-google-plus fa-lg"></i></a><br>
+      <a href="https://www.linkedin.com/in/e-cell-bvucoep-a21389107/"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a><br>
     </div>
   </div>
   </div>
@@ -349,7 +346,7 @@ crossorigin="anonymous"></script>
    reset:true
  });
 
- //animation for principal's Message
+ //animation for principal's Message and the founders meassage
  sr.reveal('.pm-anim',{
    duration: 2000,
    origin:'right',
@@ -365,12 +362,12 @@ crossorigin="anonymous"></script>
    reset:true
  });
 
- sr.reveal('.pm-anim-1', {
+// putting the same animation to the same heading
+ sr.reveal('.head-anim', {
    duration: 3000,
    origin:'bottom',
    reset:true
  });
-
 
  </script>
 
