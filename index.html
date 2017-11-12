@@ -215,7 +215,7 @@
   <div class="container">
     <p class="text-center display-4 head-anim">Testimonial</p>
 <hr style="height:2px; color:black; background-color:black;" width="40">
-	<blockquote class="blockquote">
+	<blockquote class="blockquote quote">
     <p class="mb-0">"Everyone has ideas. They may be too busy or lack the confidence or technical ability to carry them out. But I want to carry them out. It is a matter of getting up and doing it."”</p>
 	<footer class="blockquote-footer text-right"> <cite title="Source Title">James Dyson</cite></footer>
 	</blockquote>
@@ -372,6 +372,13 @@ crossorigin="anonymous"></script>
  sr.reveal('.showcase-btn', {
    duration: 2000,
    delay: 1500,
+   origin:'bottom',
+   reset:true
+ });
+
+ sr.reveal('.quote', {
+   duration: 3000,
+   delay:500,
    origin:'bottom',
    reset:true
  });
