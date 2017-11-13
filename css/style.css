@@ -1,68 +1,76 @@
-h1,h2,h3,h4,h5,h6{
-  font-family:Poppins;
+h1, h2, h3, h4, h5, h6 {
+  font-family: Poppins;
 }
 
-p{
-  font-family:Rubik;
+p {
+  font-family: Rubik;
 }
 
-footer{
+footer {
   padding: 30px;
-  font-family:Poppins;
+
+  font-family: Poppins;
 }
 
-.ft{
-  display:flex;
-  align-items:center
+.ft {
+  display: flex;
+  align-items: center
 }
 
 .hello {
   line-height: 25px;
-  in-li
-}
-.cont {
-	background-color:#b2c0cc;
 }
 
+.cont {
+  background-color: #b2c0cc;
+}
 
 .wrapper {
-    text-align: center;
+  text-align: center;
 }
 
 .hov:hover {
-    background: url(img/collab.png);
+  background: url(img/collab.png);
 }
 
-
 .tech-slideshow {
-  height: 200px;
-  max-width: 1200px;
-  margin: 0 auto;
   position: relative;
+
   overflow: hidden;
+
+  max-width: 1200px;
+  height: 200px;
+  margin: 0 auto;
+
   transform: translate3d(0, 0, 0);
 }
 
-.tech-slideshow > div {
-  height: 200px;
-  width: 2526px;
-  background-image: url("img/collab1.png");
+.tech-slideshow>div {
   position: absolute;
   top: 0;
   left: 0;
+
+  width: 2526px;
+  height: 200px;
   height: 100%;
+
   transform: translate3d(0, 0, 0);
+
+  background-image: url("img/collab1.png");
 }
+
 .tech-slideshow .mover-1 {
   animation: moveSlideshow 35s linear infinite;
 }
 
 .tech-slideshow .mover-2 {
-  opacity: 0;
   transition: opacity 0.5s ease-out;
-  background-position: 0 -200px;
   animation: moveSlideshow 15s linear infinite;
+
+  opacity: 0;
+  background-position: 0 -200px;
 }
+
 .tech-slideshow:hover .mover-2 {
   opacity: 1;
 }
