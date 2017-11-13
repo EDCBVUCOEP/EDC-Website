@@ -1,0 +1,22 @@
+h1,h2,h3,h4,h5,h6{
+  font-family:Poppins;
+}
+
+p{
+  font-family:Rubik;
+}
+
+footer{
+  padding: 30px;
+  font-family:Poppins;
+}
+
+.ft{
+  display:flex;
+  align-items:center
+}
+
+.hello {
+  line-height: 25px;
+  in-li
+}
