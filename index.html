@@ -233,117 +233,137 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid mt-2" style="background-color: #020202">
-      <div class="row">
-        <p class="text-center" style="color: white;">
-          Entrepreneurship Development Cell <br> Bharati Vidyapeeth University College of Engineering, Pune (INDIA)
-        </p>
-      </div>
+
+    <div class="col-md-3 col-xs-3 mt-3 hello">
+    <h4 style="color: white" >Social</h4><br/>
+	<table style="width:100%;">
+      <tr class="clickable-row">
+      <td><a class="ft " href="https://www.facebook.com/edcbvucoep/?fref=ts"><i class="fa fa-facebook fa-lg"></i></a></td>
+      <td><a class="ft" href="https://twitter.com/edcbvucoep"><i class="fa fa-twitter fa-lg"></i></a></td>
+      <td><a class="ft" href="https://plus.google.com/u/0/105610136565320498225"><i class="fa fa-google-plus fa-lg"></i></a></td>
+      <td><a class="ft" href="https://www.linkedin.com/in/e-cell-bvucoep-a21389107/"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></td>
+	</tr>
+	</table>
+	<br>
     </div>
-  </footer>
-  <!-- starting the script for the scrolling page -->
+  </div>
+  </div>
+<div class="container-fluid mt-2" style="background-color: #020202">
+   <div class="row">
+     <p class="text-center container" style="color: white;">
+       Entrepreneurship Development Cell <br> Bharati Vidyapeeth University College of Engineering, Pune (INDIA)
+     </p>
+   </div>
+</div>
+   </footer>
+ <!-- starting the script for the scrolling page -->
 
-  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <script
+src="https://code.jquery.com/jquery-3.2.1.js"
+integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  <script>
-    window.sr = ScrollReveal();
+ <script>
 
-    // ScrollReveal for the navigation bar
-    // animation for the whole navigation bar
-    sr.reveal('.navbar', {
-      duration: 1000,
-      origin: 'bottom',
-      reset: true,
-      mobile: true,
-      easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+ window.sr = ScrollReveal();
 
-    });
+ // ScrollReveal for the navigation bar
+// animation for the whole navigation bar
+ sr.reveal('.navbar' , {
+   duration: 1000,
+   origin:'bottom',
+   reset:true,
+   mobile: true,
+   easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
 
-    // animating the component of the navigation bar each at a time using some delay
-    // animation for the home button
-    sr.reveal('.home-nav', {
-      duration: 700,
-      delay: 00,
-      distance: '300px',
-      origin: 'right',
-      reset: true
-    });
-    // animation for the about us button
-    sr.reveal('.aboutus-anim', {
-      duration: 1500,
-      delay: 50,
-      distance: '300px',
-      origin: 'right'
-    });
-    //for the initiatives tab
-    sr.reveal('.init-anim', {
-      duration: 1500,
-      delay: 100,
-      distance: '300px',
-      origin: 'right'
-    });
-    //Events tab
-    sr.reveal('.events-anim', {
-      duration: 1500,
-      delay: 150,
-      distance: '300px',
-      origin: 'right'
-    });
-    //Contacts tab
-    sr.reveal('.con-anim', {
-      duration: 1500,
-      delay: 200,
-      distance: '300px',
-      origin: 'right'
-    });
+ });
 
-    // animation for the SLIDER
-    sr.reveal('.slide-anim', {
-      duration: 3000,
-      origin: 'bottom',
-      reset: true
-    });
+ // animating the component of the navigation bar each at a time using some delay
+// animation for the home button
+ sr.reveal('.home-nav',{
+   duration:700,
+   delay:00,
+   distance:'300px',
+   origin:'right',
+   reset:true
+ });
+// animation for the about us button
+ sr.reveal('.aboutus-anim',{
+   duration:1500,
+   delay:50,
+   distance:'300px',
+   origin:'right'
+ });
+ //for the initiatives tab
+ sr.reveal('.init-anim',{
+   duration:1500,
+   delay:100,
+   distance:'300px',
+   origin:'right'
+ });
+ //Events tab
+ sr.reveal('.events-anim',{
+   duration:1500,
+   delay:150,
+   distance:'300px',
+   origin:'right'
+ });
+ //Contacts tab
+ sr.reveal('.con-anim',{
+   duration:1500,
+   delay:200,
+   distance:'300px',
+   origin:'right'
+ });
 
-    //animation for principal's Message and the founders meassage
-    sr.reveal('.pm-anim', {
-      duration: 2000,
-      origin: 'right',
-      distance: '300px',
-      viewFactor: 0.2,
-      reset: true
-    });
+ // animation for the SLIDER
+ sr.reveal('.slide-anim',{
+   duration: 3000,
+   origin:'bottom',
+   reset:true
+ });
 
-    sr.reveal('.pimg-anim', {
-      duration: 2000,
-      origin: 'left',
-      distance: '300px',
-      reset: true
-    });
+ //animation for principal's Message and the founders meassage
+ sr.reveal('.pm-anim',{
+   duration: 2000,
+   origin:'right',
+   distance:'300px',
+   viewFactor:0.2,
+   reset:true
+ });
 
-    // putting the same animation to the same heading
-    sr.reveal('.head-anim', {
-      duration: 3000,
-      origin: 'bottom',
-      reset: true
-    });
-    sr.reveal('.showcase-btn', {
-      duration: 2000,
-      delay: 1500,
-      origin: 'bottom',
-      reset: true
-    });
+ sr.reveal('.pimg-anim',{
+   duration: 2000,
+   origin:'left',
+   distance:'300px',
+   reset:true
+ });
 
-    sr.reveal('.quote', {
-      duration: 3000,
-      delay: 500,
-      origin: 'bottom',
-      reset: true
-    });
-  </script>
+// putting the same animation to the same heading
+ sr.reveal('.head-anim', {
+   duration: 3000,
+   origin:'bottom',
+   reset:true
+ });
+ sr.reveal('.showcase-btn', {
+   duration: 2000,
+   delay: 1500,
+   origin:'bottom',
+   reset:true
+ });
+
+ sr.reveal('.quote', {
+   duration: 3000,
+   delay:500,
+   origin:'bottom',
+   reset:true
+ });
+
+ </script>
 
 
 
-</body>
+    </body>
 
 </html>
