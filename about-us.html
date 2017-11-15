@@ -24,6 +24,11 @@
     * {
       font-family: Poppins;
     }
+
+    #video-wrap {
+      float: left;
+      /*margin: 0 20px 5px 0;*/
+    }
   </style>
 
 </head>
@@ -71,11 +76,11 @@
 
   <!-- about us -->
   <div class="container">
-    <h1 class="h1 Display-1 text-center mt-3 head-anim">About Us</h1>
+    <h1 class="h1 Display-1 text-center mt-3 head-anim"><u>About Us</u></h1>
     <!-- content -->
     <div class="modal-body row">
       <div class="col-md-6 ">
-        <p class="lead text-auto pimg-anim">
+        <p class="lead text-auto pimg-anim ">
           Entrepreneurship development cell promotes, harnesses and catalyses the knowledge or technology based start-ups through young and innovative ideas of the students. With the main motive of evolving developers and innovators, the E-cell strives to assist
           every aspiring entrepreneur at every single step in their journey, right from the initiative of conceiving to the successful launching of a viable product. EDC builds the capacity and willingness to develop, organise, and manage a business venture
           along with risks in order to make a profit. Numerous events are organised regularly to explore the talent and enhance the skill of the students.The events induce motivation and competence among young prospective entrepreneurs. Prizes are awarded
@@ -83,7 +88,7 @@
           successfully for a new venture.
         </p>
       </div>
-      <div class="col-md-6 pm-anim">
+      <div class="col-md-6 pm-anim" id="video-wrap">
         <iframe width="100%" height="300" src="https://www.youtube.com/embed/ErB5lQZXpSQ" frameborder="0" allowfullscreen></iframe>
       </div>
 
@@ -146,69 +151,69 @@
 
   <!-- animation script -->
   <script>
-  window.sr = ScrollReveal();
-  // ScrollReveal for the navigation bar
-  // animation for the whole navigation bar
-  sr.reveal('.navbar', {
-    duration: 1000,
-    origin: 'bottom',
-    mobile: true,
-    reset: true,
-    viewFactor: 0.2
-    // easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
-  });
-  // animating the component of the navigation bar each at a time using some delay
-  // animation for the home button
-  sr.reveal('.home-nav', {
-    duration: 700,
-    delay: 00,
-    distance: '300px',
-    origin: 'right',
-    reset: true,
-    mobile: true,
-    reset: true,
-    viewFactor: 0.2
-  });
-  // animation for the about us button
-  sr.reveal('.aboutus-anim', {
-    duration: 1500,
-    delay: 50,
-    distance: '300px',
-    origin: 'right',
-    mobile: true,
-    reset: true,
-    viewFactor: 0.2
-  });
-  //for the initiatives tab
-  sr.reveal('.init-anim', {
-    duration: 1500,
-    delay: 100,
-    distance: '300px',
-    origin: 'right',
-    mobile: true,
-    reset: true,
-    viewFactor: 0.2
-  });
-  //Events tab
-  sr.reveal('.events-anim', {
-    duration: 1500,
-    delay: 150,
-    distance: '300px',
-    origin: 'right',
-    mobile: true,
-    reset: true,
-    viewFactor: 0.2
-  });
-  //Contacts tab
-  sr.reveal('.con-anim', {
-    duration: 1500,
-    delay: 200,
-    distance: '300px',
-    origin: 'right',
-    mobile: true,
-    reset: true,
-    viewFactor: 0.2
-  });
+    window.sr = ScrollReveal();
+    // ScrollReveal for the navigation bar
+    // animation for the whole navigation bar
+    sr.reveal('.navbar', {
+      duration: 1000,
+      origin: 'bottom',
+      mobile: true,
+      reset: true,
+      viewFactor: 0.2
+      // easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+    });
+    // animating the component of the navigation bar each at a time using some delay
+    // animation for the home button
+    sr.reveal('.home-nav', {
+      duration: 700,
+      delay: 00,
+      distance: '300px',
+      origin: 'right',
+      reset: true,
+      mobile: true,
+      reset: true,
+      viewFactor: 0.2
+    });
+    // animation for the about us button
+    sr.reveal('.aboutus-anim', {
+      duration: 1500,
+      delay: 50,
+      distance: '300px',
+      origin: 'right',
+      mobile: true,
+      reset: true,
+      viewFactor: 0.2
+    });
+    //for the initiatives tab
+    sr.reveal('.init-anim', {
+      duration: 1500,
+      delay: 100,
+      distance: '300px',
+      origin: 'right',
+      mobile: true,
+      reset: true,
+      viewFactor: 0.2
+    });
+    //Events tab
+    sr.reveal('.events-anim', {
+      duration: 1500,
+      delay: 150,
+      distance: '300px',
+      origin: 'right',
+      mobile: true,
+      reset: true,
+      viewFactor: 0.2
+    });
+    //Contacts tab
+    sr.reveal('.con-anim', {
+      duration: 1500,
+      delay: 200,
+      distance: '300px',
+      origin: 'right',
+      mobile: true,
+      reset: true,
+      viewFactor: 0.2
+    });
     // animation for the SLIDER
     sr.reveal('.slide-anim', {
       duration: 3000,
@@ -235,8 +240,8 @@
       origin: 'bottom',
       reset: true,
       mobile: true,
-      reset:true,
-      viewFactor:0.2
+      reset: true,
+      viewFactor: 0.2
     });
 
     sr.reveal('.showcase-btn', {
@@ -245,7 +250,7 @@
       origin: 'bottom',
       reset: true,
       mobile: true,
-      viewFactor:0.2
+      viewFactor: 0.2
     });
     sr.reveal('.quote', {
       duration: 2000,
