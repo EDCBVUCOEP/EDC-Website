@@ -4,13 +4,16 @@
 
   <title>EVENTS</title>
 
-
+<!-- bootstrap linking -->
   <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
   <link type="text/css" rel="stylesheet" href="css/bootstrap-reboot.css">
   <link type="text/css" rel="stylesheet" href="css/bootstrap-grid.css">
+  <!-- font-awesome cdn -->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Poppins|Rubik" rel="stylesheet">
+  <!-- scroll script cdn -->
   <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <!-- stylesheet cdn -->
   <link rel="stylesheet" href="css/style.css">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
@@ -37,10 +40,6 @@
       color: black;
       float: right;
 
-
-
-
-
     }
 
     hr.style1 {
@@ -62,7 +61,7 @@
 
 
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top ">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top " style="font-family:Poppins;">
 
     <a class="navbar-brand" href="index.html"> <img src="img/edcpng.png" alt="Mountain View" style="width:120px;height:40px;">   </a>
 
@@ -72,25 +71,24 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto ">
         <li class="nav-item active ">
-          <a class="nav-link" href="index.html">Home   <span class="sr-only">(current)</span></a>
+          <a class="nav-link home-nav" href="index.html">Home   <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link" href="about-us.html">About Us   </a>
+          <a class="nav-link aboutus-anim" href="about-us.html">About Us   </a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="initiatives.html">Initiatives   </a>
+          <a class="nav-link init-anim" href="initiatives.html">Initiatives   </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="events.html">Events   </a>
+          <a class="nav-link events-anim" href="events.html">Events   </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contactus.php">Contact Us   </a>
+          <a class="nav-link con-anim" href="contactus.php">Contact Us   </a>
         </li>
       </ul>
     </div>
   </nav>
-
 
 
 
@@ -231,7 +229,7 @@
 
 
 
-  <!-- link this footer file on every page  -->
+  <!-- footer  -->
 
   <footer style="background-color:#151515;">
     <div class="container mb-3 ">
@@ -282,14 +280,59 @@
       </div>
     </div>
   </footer>
+  <!-- ending the footer -->
 
-
-
-
-
-
-
-
+  <script>
+    window.sr = ScrollReveal();
+    // ScrollReveal for the navigation bar
+    // animation for the whole navigation bar
+    sr.reveal('.navbar', {
+      duration: 1000,
+      origin: 'bottom',
+      reset: true,
+      mobile: true,
+      // easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+    });
+    // animating the component of the navigation bar each at a time using some delay
+    // animation for the home button
+    sr.reveal('.home-nav', {
+      duration: 700,
+      delay: 00,
+      distance: '300px',
+      origin: 'right',
+      reset: true
+    });
+    // animation for the about us button
+    sr.reveal('.aboutus-anim', {
+      duration: 1500,
+      delay: 50,
+      distance: '300px',
+      origin: 'right'
+    });
+    //for the initiatives tab
+    sr.reveal('.init-anim', {
+      duration: 1500,
+      delay: 100,
+      distance: '300px',
+      origin: 'right'
+    });
+    //Events tab
+    sr.reveal('.events-anim', {
+      duration: 1500,
+      delay: 150,
+      distance: '300px',
+      origin: 'right'
+    });
+    //Contacts tab
+    sr.reveal('.con-anim', {
+      duration: 1500,
+      delay: 200,
+      distance: '300px',
+      origin: 'right'
+    });
+    // end of footer animation
+    
+  </script>
 
 </body>
 
