@@ -277,72 +277,92 @@
   <!-- ending the footer -->
 
   <script>
-    window.sr = ScrollReveal();
-    // ScrollReveal for the navigation bar
-    // animation for the whole navigation bar
-    sr.reveal('.navbar', {
-      duration: 1000,
+  window.sr = ScrollReveal();
+  // ScrollReveal for the navigation bar
+  // animation for the whole navigation bar
+  sr.reveal('.navbar', {
+    duration: 1000,
+    origin: 'bottom',
+    mobile: true,
+    reset: true,
+    viewFactor: 0.2
+    // easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+  });
+  // animating the component of the navigation bar each at a time using some delay
+  // animation for the home button
+  sr.reveal('.home-nav', {
+    duration: 700,
+    delay: 00,
+    distance: '300px',
+    origin: 'right',
+    reset: true,
+    mobile: true,
+    reset: true,
+    viewFactor: 0.2
+  });
+  // animation for the about us button
+  sr.reveal('.aboutus-anim', {
+    duration: 1500,
+    delay: 50,
+    distance: '300px',
+    origin: 'right',
+    mobile: true,
+    reset: true,
+    viewFactor: 0.2
+  });
+  //for the initiatives tab
+  sr.reveal('.init-anim', {
+    duration: 1500,
+    delay: 100,
+    distance: '300px',
+    origin: 'right',
+    mobile: true,
+    reset: true,
+    viewFactor: 0.2
+  });
+  //Events tab
+  sr.reveal('.events-anim', {
+    duration: 1500,
+    delay: 150,
+    distance: '300px',
+    origin: 'right',
+    mobile: true,
+    reset: true,
+    viewFactor: 0.2
+  });
+  //Contacts tab
+  sr.reveal('.con-anim', {
+    duration: 1500,
+    delay: 200,
+    distance: '300px',
+    origin: 'right',
+    mobile: true,
+    reset: true,
+    viewFactor: 0.2
+  });
+    // animation for the SLIDER
+    sr.reveal('.slide-anim', {
+      duration: 3000,
       origin: 'bottom',
-      mobile: true,
-      reset:true,
-      viewFactor:0.2
-      // easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+      reset: true
     });
-    // animating the component of the navigation bar each at a time using some delay
-    // animation for the home button
-    sr.reveal('.home-nav', {
-      duration: 700,
-      delay: 00,
-      distance: '300px',
+    //animation for principal's Message and the founders meassage
+    sr.reveal('.pm-anim', {
+      duration: 1000,
       origin: 'right',
-      reset: true,
-      mobile: true,
-      reset:true,
-      viewFactor:0.2
-    });
-    // animation for the about us button
-    sr.reveal('.aboutus-anim', {
-      duration: 1500,
-      delay: 50,
       distance: '300px',
-      origin: 'right',
-      mobile: true,
-      reset:true,
-      viewFactor:0.2
+      viewFactor: 0.2,
+      reset: true
     });
-    //for the initiatives tab
-    sr.reveal('.init-anim', {
-      duration: 1500,
-      delay: 100,
+    sr.reveal('.pimg-anim', {
+      duration: 1000,
+      origin: 'left',
       distance: '300px',
-      origin: 'right',
-      mobile: true,
-      reset:true,
-      viewFactor:0.2
+      reset: true
     });
-    //Events tab
-    sr.reveal('.events-anim', {
-      duration: 1500,
-      delay: 150,
-      distance: '300px',
-      origin: 'right',
-      mobile: true,
-      reset:true,
-      viewFactor:0.2
-    });
-    //Contacts tab
-    sr.reveal('.con-anim', {
-      duration: 1500,
-      delay: 200,
-      distance: '300px',
-      origin: 'right',
-      mobile: true,
-      reset:true,
-      viewFactor:0.2
-    });
-    // end of footer animation
+    // putting the same animation to the same heading
     sr.reveal('.head-anim', {
-      duration: 2000,
+      duration: 1000,
       origin: 'bottom',
       reset: true,
       mobile: true,
@@ -351,12 +371,18 @@
     });
 
     sr.reveal('.showcase-btn', {
-      duration: 2000,
+      duration: 1500,
       delay: 250,
       origin: 'bottom',
       reset: true,
       mobile: true,
       viewFactor:0.2
+    });
+    sr.reveal('.quote', {
+      duration: 2000,
+      delay: 500,
+      origin: 'bottom',
+      reset: true
     });
   </script>
 
