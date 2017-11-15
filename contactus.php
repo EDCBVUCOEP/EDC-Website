@@ -83,10 +83,21 @@
 
 
   <head>
-      
+
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<link rel="icon" type="image/png" href="img/flavcon.png" style="height:128px;width:128px;" />
+  <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+  <link type="text/css" rel="stylesheet" href="css/bootstrap-reboot.css">
+  <link type="text/css" rel="stylesheet" href="css/bootstrap-grid.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Poppins|Rubik" rel="stylesheet">
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -122,7 +133,7 @@
           <li class="nav-item ">
             <a class="nav-link" href="about-us.html">About Us   </a>
           </li>
-  
+
           <li class="nav-item">
             <a class="nav-link" href="initiatives.html">Initiatives   </a>
           </li>
@@ -191,67 +202,62 @@
 
 </div>
 </div>
-        
+
 <hr class="style1">
-          
-          
-          
+
+
+
 <footer style="background-color:#151515;">
-  <div class="container mb-3">
+  <div class="container mb-3 ">
     <div class="row mt-3">
-	 <div class="col-md-3 col-xs-3 mt-4">
-      <a href="index.html"><img src="img/edc-white.png" height="40px" width="120px"  ></a><br><br>
-      <p style="color:white;"> Bhararti Vidyapeeth University,<br>
-     College of Engineering,<br>
-      Pune-411043.</p>
-    </div>
+      <div class="col-md-3 col-xs-3 mt-4">
+        <a href="index.html"><img src="img/edc-white.png" height="40px" width="120px"  ></a><br><br>
+        <p style="color:white;"> Bhararti Vidyapeeth University,<br> College of Engineering,<br> Pune-411043.
+        </p>
+      </div>
 
-	<div class="col-md-3 col-xs-3 mt-3">
+      <div class="col-md-3 col-xs-3 mt-3 hello">
 
-     <h4 style="color: white">Main</h4><br>
-      <a href="index.html" style="color:white;">Home</a><br>
-      <a href="about-us.html" style="color:white;">About Us</a><br>
-      <a href="contactus.php" style="color:white;">Contact Us</a><br>
-      <a href="initiatives.html" style="color:white;">Initiatives</a><br>
-    
-    </div>
+        <h4 style="color: white">Main</h4><br>
+        <a href="index.html" style="color:white;">Home</a><br>
+        <a href="about-us.html" style="color:white;">About Us</a><br>
+        <a href="contactus.php" style="color:white;">Contact Us</a><br>
+        <a href="initiatives.html" style="color:white;">Initiatives</a><br>
 
-    <div class="col-md-3 col-xs-3 mt-3">
-    <h4 style="color: white">Events</h4><br>
-      <a href="" style="color:white;">Startup Conclave</a><br>
-      <a href="sec.html" style="color:white;">SEC 17</a><br>
-      <a href="esummit.html" style="color:white;">E-Summit</a><br>
-      <a href="internstellar.html" style="color:white;">Internstellar</a><br>
-    </div>
+      </div>
 
-    <div class="col-md-3 col-xs-3 mt-3">
-    <h4 style="color: white">Social</h4><br>
-      <a href="https://www.facebook.com/edcbvucoep/?fref=ts"><img src="img/fb.png" height="20px" width="20px"></a><br>
-      <a href="https://twitter.com/edcbvucoep"><img src="img/twi.png" height="20px" width="20px"></a><br>
-      <a href="https://plus.google.com/u/0/105610136565320498225"><img src="img/goog.png" height="20px" width="20px"></a><br>
-      <a href="https://www.linkedin.com/in/e-cell-bvucoep-a21389107/"><img src="img/li.png" height="20px" width="20px"></a><br>
+      <div class="col-md-3 col-xs-3 mt-3 hello">
+        <h4 style="color: white">Events</h4><br>
+        <a href="" style="color:white; font-family:Poppins;">Startup Conclave</a><br>
+        <a href="" style="color:white; font-family:Poppins;">SEC 17</a><br>
+        <a href="" style="color:white; font-family:Poppins;">E-Summit</a><br>
+        <a href="" style="color:white; font-family:Poppins;">Internstellar</a><br>
+      </div>
 
-      <ul class="nav justify-content-start">
-          <li class="nav-item"><a href="#" class="nav-link pr-0"><i class="fa fa-facebook"></i></a></li>
-          <li class="nav-item"><a href="#" class="nav-link pr-0"><i class="fa fa-google-plus"></i></a></li>
-          <li class="nav-item"><a href="#" class="nav-link pr-0"><i class="fa fa-instagram"></i></a></li>
-          <li class="nav-item"><a href="#" class="nav-link pr-0"><i class="fa fa-twitter"></i></a></li>
-          <li class="nav-item"><a href="#" class="nav-link pr-0"><i class="fa fa-pinterest-p "></i></a></li>
-      </ul>
-
+      <div class="col-md-3 col-xs-3 mt-3 hello">
+        <h4 style="color: white">Social</h4><br>
+        <ul class="nav justify-content-start">
+          <li class="nav-item"><a href="#" class="nav-link pr-0"><i class="fa fa-facebook fa-lg"></i></a></li>
+          <li class="nav-item"><a href="#" class="nav-link pr-0"><i class="fa fa-google-plus fa-lg"></i></a></li>
+          <li class="nav-item"><a href="#" class="nav-link pr-0"><i class="fa fa-instagram fa-lg"></i></a></li>
+          <li class="nav-item"><a href="#" class="nav-link pr-0"><i class="fa fa-twitter fa-lg"></i></a></li>
+          <li class="nav-item"><a href="#" class="nav-link pr-0"><i class="fa fa-pinterest-p fa-lg"></i></a></li>
+        </ul>
+      </div>
     </div>
   </div>
-  </div>  
-<div class="container-fluid mt-2" style="background-color: #020202">
-   <div class="row">
-     <p class="text-center" style="color: white;">
-       Entrepreneurship Development Cell | Bharati Vidyapeeth University College of Engineering, Pune (INDIA)
-     </p>
-   </div>
-</div>
-   </footer>
+  </div>
+  </div>
+  <div class="container-fluid mt-2" style="background-color: #020202">
+    <div class="row">
+      <p class="text-center container" style="color: white;">
+        Entrepreneurship Development Cell <br> Bharati Vidyapeeth University College of Engineering, Pune (INDIA)
+      </p>
+    </div>
+  </div>
+</footer>
 
-          
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, thens Bootstrap JS -->
@@ -309,5 +315,5 @@ return true;
     </script>
 
   </body>
-      
+
 </html>
