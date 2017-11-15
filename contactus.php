@@ -96,6 +96,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
 
+<title>Contact Us</title>
+<link rel="icon" type="image/png" href="img/flavcon.png" style="height:128px;width:128px;" />
+
 
   </head>
 
@@ -216,9 +219,9 @@
     <div class="col-md-3 col-xs-3 mt-3">
     <h4 style="color: white">Events</h4><br>
       <a href="" style="color:white;">Startup Conclave</a><br>
-      <a href="" style="color:white;">SEC 17</a><br>
-      <a href="" style="color:white;">E-Summit</a><br>
-      <a href="" style="color:white;">Internstellar</a><br>
+      <a href="sec.html" style="color:white;">SEC 17</a><br>
+      <a href="esummit.html" style="color:white;">E-Summit</a><br>
+      <a href="internstellar.html" style="color:white;">Internstellar</a><br>
     </div>
 
     <div class="col-md-3 col-xs-3 mt-3">
