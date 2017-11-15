@@ -4,7 +4,7 @@
 
   <title>EVENTS</title>
 
-<!-- bootstrap linking -->
+  <!-- bootstrap linking -->
   <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
   <link type="text/css" rel="stylesheet" href="css/bootstrap-reboot.css">
   <link type="text/css" rel="stylesheet" href="css/bootstrap-grid.css">
@@ -102,13 +102,7 @@
       <div class="carousel-item active">
         <img class="d-block w-100 img-fluid" max-width="100%" height="auto" src="img/hslider.png" alt="First slide">
       </div>
-      <!-- <div class="carousel-item">
-      <img class="d-block w-100 img-fluid" max-width="100%" height="auto" src="img/googleform.png" alt="Second slide" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100 img-fluid" max-width="100%" height="auto" src="H:\ceo talks\recruitment\edc.jpg" alt="Third slide">
-    </div>
-  </div>-->
+
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only" style="font-family:Poppins;">Previous</span>
@@ -130,7 +124,7 @@
 
     <div class="container mb-5">
 
-      <h1 id="header" align="center" style="margin-left:20px;" style="font-family:Poppins;"> STARTUP <br> CONCLAVE '17<br><a href="https://goo.gl/forms/PenQyGdiRY6FYr1S2"> <button type="button" class="btn btn-outline-primary" style="float:right;margin-top:50px;margin-right:80px;">Register Now</button></a></h1>
+      <h1 id="header" align="center" class="showcase-btn" style="margin-left:20px;" style="font-family:Poppins;"> STARTUP <br> CONCLAVE '17<br><a href="https://goo.gl/forms/PenQyGdiRY6FYr1S2"> <button type="button" class="btn btn-outline-primary" style="float:right;margin-top:50px;margin-right:80px;">Register Now</button></a></h1>
 
 
 
@@ -144,10 +138,10 @@
           an idea. This talk will help participants to understand how to validate business ideas in order to determine whether or not it is worth pursuing your business venture. Idea Modification: It’s not always that your initial idea works. This talk
           will give participants an insight about how to modify your idea which relevant according to the market. Prototype/Beta Version: In a product based or service based startup it’s always necessary that you have a sample MVP [Minimum Value Project]
           or a tested service in your hand. The talk will guide people on building their first prototype/Beta version. Incubation/Funding/Acceleration: These talks will guide participants to obtain necessary resources and catalyst to scale up your venture.
-          </p>
+        </p>
 
         <div class="container mx-auto" style="width: 110px;">
-          <a target="_blank" href="timeline.html" style="font-family:Poppins;"><button type="button" class="btn btn-primary mb-4 mt-4" >Event Schedule</button></a>
+          <a target="_blank" class="showcase-btn" href="timeline.html" style="font-family:Poppins;"><button type="button" class="btn btn-primary mb-4 mt-4 showcase-btn" >Event Schedule</button></a>
         </div>
       </div>
 
@@ -289,8 +283,9 @@
     sr.reveal('.navbar', {
       duration: 1000,
       origin: 'bottom',
-      reset: true,
       mobile: true,
+      reset:true,
+      viewFactor:0.2
       // easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
     });
     // animating the component of the navigation bar each at a time using some delay
@@ -300,44 +295,69 @@
       delay: 00,
       distance: '300px',
       origin: 'right',
-      reset: true
+      reset: true,
+      mobile: true,
+      reset:true,
+      viewFactor:0.2
     });
     // animation for the about us button
     sr.reveal('.aboutus-anim', {
       duration: 1500,
       delay: 50,
       distance: '300px',
-      origin: 'right'
+      origin: 'right',
+      mobile: true,
+      reset:true,
+      viewFactor:0.2
     });
     //for the initiatives tab
     sr.reveal('.init-anim', {
       duration: 1500,
       delay: 100,
       distance: '300px',
-      origin: 'right'
+      origin: 'right',
+      mobile: true,
+      reset:true,
+      viewFactor:0.2
     });
     //Events tab
     sr.reveal('.events-anim', {
       duration: 1500,
       delay: 150,
       distance: '300px',
-      origin: 'right'
+      origin: 'right',
+      mobile: true,
+      reset:true,
+      viewFactor:0.2
     });
     //Contacts tab
     sr.reveal('.con-anim', {
       duration: 1500,
       delay: 200,
       distance: '300px',
-      origin: 'right'
+      origin: 'right',
+      mobile: true,
+      reset:true,
+      viewFactor:0.2
     });
     // end of footer animation
     sr.reveal('.head-anim', {
-      duration: 3000,
+      duration: 2000,
       origin: 'bottom',
-      reset: true
+      reset: true,
+      mobile: true,
+      reset:true,
+      viewFactor:0.2
     });
 
-
+    sr.reveal('.showcase-btn', {
+      duration: 2000,
+      delay: 250,
+      origin: 'bottom',
+      reset: true,
+      mobile: true,
+      viewFactor:0.2
+    });
   </script>
 
 </body>
