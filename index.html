@@ -16,83 +16,99 @@
   <link rel="icon" type="image/png" href="img/flavcon.png" style="height:128px;width:128px;" />
 
 
-<style>
+  <style>
+    .cont {
+      background-color: #b2c0cc;
+    }
 
-.cont {
-	background-color:#b2c0cc;
-}
+    * {
+      font-family: Poppins;
+    }
+
+    .wrapper {
+      text-align: center;
+    }
+
+    .hov:hover {
+      background: url(img/collab.png);
+    }
 
 
-.wrapper {
-    text-align: center;
-}
+    .tech-slideshow {
+      height: 200px;
+      max-width: 1200px;
+      margin: 0 auto;
+      position: relative;
+      overflow: hidden;
+      transform: translate3d(0, 0, 0);
+    }
 
-.hov:hover {
-    background: url(img/collab.png);
-}
+    .tech-slideshow>div {
+      height: 200px;
+      width: 2526px;
+      background-image: url("img/collab1.png");
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      transform: translate3d(0, 0, 0);
+    }
 
+    .tech-slideshow .mover-1 {
+      animation: moveSlideshow 35s linear infinite;
+    }
 
-.tech-slideshow {
-  height: 200px;
-  max-width: 1200px;
-  margin: 0 auto;
-  position: relative;
-  overflow: hidden;
-  transform: translate3d(0, 0, 0);
-}
+    .tech-slideshow .mover-2 {
+      opacity: 0;
+      transition: opacity 0.5s ease-out;
+      background-position: 0 -200px;
+      animation: moveSlideshow 15s linear infinite;
+    }
 
-.tech-slideshow > div {
-  height: 200px;
-  width: 2526px;
-  background-image: url("img/collab1.png");
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  transform: translate3d(0, 0, 0);
-}
-.tech-slideshow .mover-1 {
-  animation: moveSlideshow 35s linear infinite;
-}
+    .tech-slideshow:hover .mover-2 {
+      opacity: 1;
+    }
 
-.tech-slideshow .mover-2 {
-  opacity: 0;
-  transition: opacity 0.5s ease-out;
-  background-position: 0 -200px;
-  animation: moveSlideshow 15s linear infinite;
-}
-.tech-slideshow:hover .mover-2 {
-  opacity: 1;
-}
-
-@keyframes moveSlideshow {
-  100% {
-    transform: translateX(-66.6666%);
-  }
-}
+    @keyframes moveSlideshow {
+      100% {
+        transform: translateX(-66.6666%);
+      }
+    }
 
 
     .parallax {
-    /* The image used */
-    background-image: url("https://pixabay.com/photo-2633132/");
+      /* The image used */
+      background-image: url("https://pixabay.com/photo-2633132/");
 
-    /* Set a specific height */
-    height: 500px;
+      /* Set a specific height */
+      height: 500px;
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
 
     .parallax-window {
-    min-height: 400px;
-    background: transparent;
-}
+      min-height: 400px;
+      background: transparent;
+    }
 
+    #footer {
+      background-color: #151515;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      margin-bottom: 15px;
+      font-family: Poppins;
+    }
 
-</style>
+    #footer-1 {
+      background-color: #020202;
+      padding-top: 25px;
+      padding-bottom: 15px;
+    }
+  </style>
 
 
 
@@ -279,8 +295,8 @@
 
 
 
-  <footer style="background-color:#151515;">
-    <div class="container mb-3 ">
+  <footer id="footer">
+    <div class="container mb-3 footer-0">
       <div class="row mt-3">
         <div class="col-md-3 col-xs-3 mt-4">
           <a href="index.html"><img src="img/edc-white.png" height="40px" width="120px"  ></a><br><br>
@@ -298,7 +314,7 @@
 
         </div>
 
-        <div class="col-md-3 col-xs-3 mt-3 hello">
+        <div class="col-md-3 col-xs-3 mt-3 hello" id="footer-2">
           <h4 style="color: white">Events</h4><br>
           <a href="" style="color:white; font-family:Poppins;">Startup Conclave</a><br>
           <a href="" style="color:white; font-family:Poppins;">SEC 17</a><br>
@@ -306,7 +322,7 @@
           <a href="" style="color:white; font-family:Poppins;">Internstellar</a><br>
         </div>
 
-        <div class="col-md-3 col-xs-3 mt-3 hello">
+        <div class="col-md-3 col-xs-3 mt-3 hello" id="footer-3">
           <h4 style="color: white">Social</h4><br>
           <ul class="nav justify-content-start">
             <li class="nav-item"><a href="#" class="nav-link pr-0"><i class="fa fa-facebook fa-lg"></i></a></li>
@@ -320,7 +336,7 @@
     </div>
     </div>
     </div>
-    <div class="container-fluid mt-2" style="background-color: #020202">
+    <div class="container-fluid mt-2 " id="footer-1">
       <div class="row">
         <p class="text-center container" style="color: white;">
           Entrepreneurship Development Cell <br> Bharati Vidyapeeth University College of Engineering, Pune (INDIA)
@@ -334,69 +350,69 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <script>
-  window.sr = ScrollReveal();
-  // ScrollReveal for the navigation bar
-  // animation for the whole navigation bar
-  sr.reveal('.navbar', {
-    duration: 1000,
-    origin: 'bottom',
-    mobile: true,
-    reset: true,
-    viewFactor: 0.2
-    // easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
-  });
-  // animating the component of the navigation bar each at a time using some delay
-  // animation for the home button
-  sr.reveal('.home-nav', {
-    duration: 700,
-    delay: 00,
-    distance: '300px',
-    origin: 'right',
-    reset: true,
-    mobile: true,
-    reset: true,
-    viewFactor: 0.2
-  });
-  // animation for the about us button
-  sr.reveal('.aboutus-anim', {
-    duration: 1500,
-    delay: 50,
-    distance: '300px',
-    origin: 'right',
-    mobile: true,
-    reset: true,
-    viewFactor: 0.2
-  });
-  //for the initiatives tab
-  sr.reveal('.init-anim', {
-    duration: 1500,
-    delay: 100,
-    distance: '300px',
-    origin: 'right',
-    mobile: true,
-    reset: true,
-    viewFactor: 0.2
-  });
-  //Events tab
-  sr.reveal('.events-anim', {
-    duration: 1500,
-    delay: 150,
-    distance: '300px',
-    origin: 'right',
-    mobile: true,
-    reset: true,
-    viewFactor: 0.2
-  });
-  //Contacts tab
-  sr.reveal('.con-anim', {
-    duration: 1500,
-    delay: 200,
-    distance: '300px',
-    origin: 'right',
-    mobile: true,
-    reset: true,
-    viewFactor: 0.2
-  });
+    window.sr = ScrollReveal();
+    // ScrollReveal for the navigation bar
+    // animation for the whole navigation bar
+    sr.reveal('.navbar', {
+      duration: 1000,
+      origin: 'bottom',
+      mobile: true,
+      reset: true,
+      viewFactor: 0.2
+      // easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+    });
+    // animating the component of the navigation bar each at a time using some delay
+    // animation for the home button
+    sr.reveal('.home-nav', {
+      duration: 700,
+      delay: 00,
+      distance: '300px',
+      origin: 'right',
+      reset: true,
+      mobile: true,
+      reset: true,
+      viewFactor: 0.2
+    });
+    // animation for the about us button
+    sr.reveal('.aboutus-anim', {
+      duration: 1500,
+      delay: 50,
+      distance: '300px',
+      origin: 'right',
+      mobile: true,
+      reset: true,
+      viewFactor: 0.2
+    });
+    //for the initiatives tab
+    sr.reveal('.init-anim', {
+      duration: 1500,
+      delay: 100,
+      distance: '300px',
+      origin: 'right',
+      mobile: true,
+      reset: true,
+      viewFactor: 0.2
+    });
+    //Events tab
+    sr.reveal('.events-anim', {
+      duration: 1500,
+      delay: 150,
+      distance: '300px',
+      origin: 'right',
+      mobile: true,
+      reset: true,
+      viewFactor: 0.2
+    });
+    //Contacts tab
+    sr.reveal('.con-anim', {
+      duration: 1500,
+      delay: 200,
+      distance: '300px',
+      origin: 'right',
+      mobile: true,
+      reset: true,
+      viewFactor: 0.2
+    });
     // animation for the SLIDER
     sr.reveal('.slide-anim', {
       duration: 3000,
@@ -423,8 +439,8 @@
       origin: 'bottom',
       reset: true,
       mobile: true,
-      reset:true,
-      viewFactor:0.2
+      reset: true,
+      viewFactor: 0.2
     });
 
     sr.reveal('.showcase-btn', {
@@ -433,7 +449,7 @@
       origin: 'bottom',
       reset: true,
       mobile: true,
-      viewFactor:0.2
+      viewFactor: 0.2
     });
     sr.reveal('.quote', {
       duration: 2000,
