@@ -148,7 +148,7 @@
     </nav>
 
 
-      <div class="container">
+      <div class="container head-anim">
 
     <h1 style="padding-top:20px">CONTACT US</h1>
     <div id="error"><? echo $error.$successMessage; ?></div>
@@ -156,7 +156,7 @@
 
 <div class="row mt-3">
 
-<div class="col-md-5">
+<div class="col-md-5 pimg-anim">
 
     <form method="post">
         <form>
@@ -194,7 +194,7 @@
 </form>
 </div>
 
-<div class="col-md-7">
+<div class="col-md-7 pm-anim">
   <div>
    <iframe width="100%" height="450" frameborder="0" style="border:0"
    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJXa5GrsfqwjsRhNzgi8wWLvU&key=AIzaSyBipjvit8EJ0O3yuLwDhMAP1QOH6D2OBx4" allowfullscreen></iframe>
@@ -387,7 +387,7 @@ return true;
       });
       //animation for principal's Message and the founders meassage
       sr.reveal('.pm-anim', {
-        duration: 1000,
+        duration: 3000,
         origin: 'right',
         distance: '300px',
         viewFactor: 0.2,
